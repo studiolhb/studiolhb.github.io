@@ -211,6 +211,9 @@ footer[role="contentinfo"] {
   margin-top: 8px;
   letter-spacing: 1px;
 }
+.skip-to-content-link {
+  display: none !important;
+}
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .photo-row { grid-template-columns: repeat(3, 1fr); }
