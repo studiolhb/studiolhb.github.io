@@ -91,7 +91,7 @@ body { background: #f9f5ef; font-family: 'Varela Round', sans-serif; }
 .btn:hover { background: #a85a93; }
 
 .body-content {
-  max-width: 680px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
 }
