@@ -1,3 +1,7 @@
 title: Studio LHB
 description: Painterly, textured, organic art for fabric, wallpaper, and everyday objects.
 theme: minima
+minima:
+  skin: classic
+header_pages:
+  - README.md
