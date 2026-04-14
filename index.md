@@ -30,11 +30,11 @@ layout: default
 
 <main class="body-content">
 
-  <p class="statement">The story contained within my art may speak to you now, or possibly it's a story you've yet to experience. Visual art has a way of touching your soul in ways that words cannot.</p>
+  <p class="statement">The story in my art may speak to you now, or it may be one you've yet to experience. Visual art touches your soul in ways words cannot.</p>
 
   <p class="statement">I make art that brings out memories and emotions because we all need to remember what makes us human.</p>
 
-  <p class="pull-quote">In a world of AI, we need more art that is thought provoking, riveting, and poignant — not just another carbon copy.</p>
+  <p class="pull-quote">In a world of AI, we need more art that is thought-provoking, riveting, and poignant — not just another carbon copy.</p>
 
   <p class="statement">I'm Lauren, and I create painterly, textured, organic style art rooted in keeping things human and handmade — because that's something worth protecting.</p>
 
