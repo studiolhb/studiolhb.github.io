@@ -105,7 +105,10 @@ img.tape-badge {
   margin: 0 auto;
   padding: 2.5rem 2rem;
 }
-
+.body-content .btn {
+  display: inline-block;
+  margin-top: 2rem;
+}
 .statement {
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
