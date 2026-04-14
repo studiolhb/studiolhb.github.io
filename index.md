@@ -30,7 +30,8 @@ layout: default
 
 <main class="body-content">
 
-  <p class="statement">The story in my art may speak to you now, or it may be one you've yet to experience. Visual art touches your soul in ways words cannot.</p>
+ <p class="statement">The story contained within my art may speak to you now, or possibly it's a story you've yet to experience. Visual art has a way of touching your soul in ways that words cannot.</p>
+
 
   <p class="statement">I make art that brings out memories and emotions because we all need to remember what makes us human.</p>
 
