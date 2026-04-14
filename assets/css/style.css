@@ -30,7 +30,17 @@ body { background: #f9f5ef; font-family: 'Varela Round', sans-serif; }
   transform: rotate(-1.2deg);
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
-
+img.tape-badge {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transform: rotate(-1.2deg);
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .tape-title {
   display: block;
   font-family: 'Lato', sans-serif;
