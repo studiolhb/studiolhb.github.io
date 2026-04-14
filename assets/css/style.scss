@@ -211,8 +211,17 @@ footer[role="contentinfo"] {
   margin-top: 8px;
   letter-spacing: 1px;
 }
-.skip-to-content-link {
+a[href="#content"] {
   display: none !important;
+}
+
+a.skip-link {
+  display: none !important;
+}
+
+body > a:first-child {
+  display: none !important;
+}
 }
 /* RESPONSIVE */
 @media (max-width: 600px) {
