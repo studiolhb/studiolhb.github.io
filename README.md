@@ -1,5 +1,3 @@
-# Studio LHB
-
 The story contained within my art may speak to you now, or possibly 
 it's a story you've yet to experience. Visual art has a way of touching 
 your soul in ways that words cannot.
