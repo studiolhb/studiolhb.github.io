@@ -122,3 +122,69 @@ body { background: #f9f5ef; font-family: 'Varela Round', sans-serif; }
   border-top: 1px solid #d8cfc5;
   margin: 2rem;
 }
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin: 2rem 0;
+}
+
+.photo-box {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.photo-caption {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #8a7a6a;
+  text-align: center;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+.section-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ba6ca5;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.drop-text {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  color: #3a3530;
+  line-height: 1.8;
+}
+
+.site-footer {
+  background: #0f4d5e;
+  padding: 1.2rem 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.site-footer p {
+  font-size: 12px;
+  color: rgba(255,255,255,0.7);
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.page-header { display: none !important; }
+.page-footer { display: none !important; }
+.site-footer.cayman-footer { display: none !important; }
+.skip-to-content-link { display: none !important; }
+
+@media (max-width: 600px) {
+  .photo-row { grid-template-columns: repeat(3, 1fr); }
+  .btn { font-size: 10px; padding: 7px 12px; }
+}
