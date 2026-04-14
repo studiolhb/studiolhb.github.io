@@ -25,4 +25,49 @@ layout: default
     <a class="btn" href="/catalog">Catalog</a>
     <a class="btn" href="https://studio-lhb.kit.com/free-coloring-sheet">Newsletter</a>
     <a class="btn" href="https://www.pinterest.com/studiolhb/">Pinterest</a>
-    <a class="b
+  </div>
+</nav>
+
+<main class="body-content">
+
+  <p class="statement">The story contained within my art may speak to you now, or possibly it's a story you've yet to experience. Visual art has a way of touching your soul in ways that words cannot.</p>
+
+  <p class="statement">I make art that brings out memories and emotions because we all need to remember what makes us human.</p>
+
+  <p class="pull-quote">In a world of AI, we need more art that is thought provoking, riveting, and poignant — not just another carbon copy.</p>
+
+  <p class="statement">I'm Lauren, and I create painterly, textured, organic style art rooted in keeping things human and handmade — because that's something worth protecting.</p>
+
+  <hr class="divider">
+
+  <div class="photo-row">
+    <a href="YOUR-SPOONFLOWER-COLLECTION-URL" target="_blank">
+      <img src="images/featured1.jpg" alt="YOUR ALT TEXT 1" class="photo-box">
+    </a>
+    <a href="YOUR-SPOONFLOWER-COLLECTION-URL" target="_blank">
+      <img src="images/featured2.jpg" alt="YOUR ALT TEXT 2" class="photo-box">
+    </a>
+    <a href="YOUR-SPOONFLOWER-COLLECTION-URL" target="_blank">
+      <img src="images/featured3.jpg" alt="YOUR ALT TEXT 3" class="photo-box">
+    </a>
+    <a href="YOUR-SPOONFLOWER-COLLECTION-URL" target="_blank">
+      <img src="images/featured4.jpg" alt="YOUR ALT TEXT 4" class="photo-box">
+    </a>
+    <a href="YOUR-SPOONFLOWER-COLLECTION-URL" target="_blank">
+      <img src="images/featured5.jpg" alt="YOUR ALT TEXT 5" class="photo-box">
+    </a>
+  </div>
+  <p class="photo-caption">click any image to shop on spoonflower</p>
+
+  <hr class="divider">
+
+  <p class="section-heading">Latest Drop</p>
+  <p class="drop-text">New patterns drop every week. Sign up for the weekly drop email to get a direct link to each week's new designs straight to your inbox.</p>
+
+</main>
+
+<footer class="site-footer">
+  <p>Art that lives on fabric, wallpaper, and everyday objects</p>
+</footer>
+
+</div>
