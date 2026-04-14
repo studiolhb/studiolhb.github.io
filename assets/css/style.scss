@@ -185,7 +185,32 @@ body { background: #f9f5ef; font-family: 'Varela Round', sans-serif; }
   font-weight: 600;
   text-transform: uppercase;
 }
+/* HIDE CAYMAN DEFAULT HEADER AND FOOTER */
+.page-header {
+  display: none !important;
+}
 
+.site-footer.cayman-footer {
+  display: none !important;
+}
+
+footer[role="contentinfo"] {
+  display: none !important;
+}
+
+.page-footer {
+  display: none !important;
+}
+
+/* BIGGER PHOTO CAPTION */
+.photo-caption {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #8a7a6a;
+  text-align: center;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .photo-row { grid-template-columns: repeat(3, 1fr); }
