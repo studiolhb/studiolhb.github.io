@@ -179,9 +179,14 @@ body { background: #f9f5ef; font-family: 'Varela Round', sans-serif; }
   text-transform: uppercase;
 }
 
-.page-header { display: none !important; }
-.page-footer { display: none !important; }
-.site-footer.cayman-footer { display: none !important; }
+.page-header,
+header.page-header,
+.cayman-header { display: none !important; }
+
+.page-footer,
+footer.page-footer { display: none !important; }
+
+a.skip-to-content-link,
 .skip-to-content-link { display: none !important; }
 
 @media (max-width: 600px) {
