@@ -7,123 +7,24 @@
   <title>Catalog — Studio LHB</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    .catalog-controls {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 1.5rem 2rem 0.5rem;
-    }
-    .search-bar {
-      width: 100%;
-      padding: 10px 16px;
-      font-family: 'Lato', sans-serif;
-      font-size: 14px;
-      border: 1px solid #d8cfc5;
-      border-radius: 20px;
-      background: #fff;
-      color: #3a3530;
-      margin-bottom: 1rem;
-      box-sizing: border-box;
-    }
+    .catalog-controls { max-width: 980px; margin: 0 auto; padding: 1.5rem 2rem 0.5rem; }
+    .search-bar { width: 100%; padding: 10px 16px; font-family: 'Lato', sans-serif; font-size: 14px; border: 1px solid #d8cfc5; border-radius: 20px; background: #fff; color: #3a3530; margin-bottom: 1rem; box-sizing: border-box; }
     .search-bar:focus { outline: none; border-color: #0f4d5e; }
-    .filter-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 1rem;
-    }
-    .filter-btn {
-      font-family: 'Lato', sans-serif;
-      font-size: 11px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 20px;
-      border: 1px solid #ba6ca5;
-      background: transparent;
-      color: #ba6ca5;
-      cursor: pointer;
-      font-weight: 600;
-    }
-    .filter-btn.active, .filter-btn:hover {
-      background: #ba6ca5;
-      color: #fff;
-    }
-    .catalog-grid {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 0 2rem 3rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1.5rem;
-    }
-    .catalog-card {
-      display: flex;
-      flex-direction: column;
-    }
-    .card-img-wrap {
-      position: relative;
-      width: 100%;
-      aspect-ratio: 1;
-      overflow: hidden;
-      border-radius: 8px;
-      margin-bottom: 0.6rem;
-    }
-    .card-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+    .filter-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
+    .filter-btn { font-family: 'Lato', sans-serif; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; border: 1px solid #ba6ca5; background: transparent; color: #ba6ca5; cursor: pointer; font-weight: 600; }
+    .filter-btn.active, .filter-btn:hover { background: #ba6ca5; color: #fff; }
+    .catalog-grid { max-width: 980px; margin: 0 auto; padding: 0 2rem 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
+    .catalog-card { display: flex; flex-direction: column; }
+    .card-img-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-radius: 8px; margin-bottom: 0.6rem; }
+    .card-img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .coming-soon-wrap .card-img { filter: brightness(0.7); }
-    .coming-soon-badge {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: #ba6ca5;
-      color: white;
-      font-family: 'Lato', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 20px;
-      white-space: nowrap;
-    }
-    .card-title {
-      font-family: 'Lato', sans-serif;
-      font-size: 13px;
-      color: #3a3530;
-      margin-bottom: 0.5rem;
-      line-height: 1.4;
-      flex: 1;
-    }
-    .card-btn {
-      font-size: 10px;
-      padding: 7px 12px;
-      display: inline-block;
-      align-self: flex-start;
-    }
-    .no-results {
-      grid-column: 1 / -1;
-      text-align: center;
-      font-family: 'Lato', sans-serif;
-      color: #8a7a6a;
-      padding: 3rem 0;
-      font-size: 14px;
-    }
+    .coming-soon-badge { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #ba6ca5; color: white; font-family: 'Lato', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
+    .card-title { font-family: 'Lato', sans-serif; font-size: 13px; color: #3a3530; margin-bottom: 0.5rem; line-height: 1.4; flex: 1; }
+    .card-btn { font-size: 10px; padding: 7px 12px; display: inline-block; align-self: flex-start; }
+    .no-results { grid-column: 1 / -1; text-align: center; font-family: 'Lato', sans-serif; color: #8a7a6a; padding: 3rem 0; font-size: 14px; }
     .catalog-card.hidden { display: none; }
-    .result-count {
-      font-family: 'Lato', sans-serif;
-      font-size: 12px;
-      color: #8a7a6a;
-      margin-bottom: 0.5rem;
-      letter-spacing: 1px;
-    }
-    @media (max-width: 600px) {
-      .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; padding: 0 1rem 2rem; }
-    }
+    .result-count { font-family: 'Lato', sans-serif; font-size: 12px; color: #8a7a6a; margin-bottom: 0.5rem; letter-spacing: 1px; }
+    @media (max-width: 600px) { .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; padding: 0 1rem 2rem; } }
   </style>
 </head>
 <body>
@@ -150,777 +51,71 @@
   <input class="search-bar" type="text" id="searchInput" placeholder="Search designs...">
   <div class="filter-row">
     <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="abstract">Abstract</button>
     <button class="filter-btn" data-filter="animal">Animals</button>
     <button class="filter-btn" data-filter="blender">Blenders</button>
+    <button class="filter-btn" data-filter="botanical">Botanical</button>
+    <button class="filter-btn" data-filter="baby-kids">Baby & Kids</button>
     <button class="filter-btn" data-filter="coastal">Coastal</button>
-    <button class="filter-btn" data-filter="coquette">Coquette</button>
-    <button class="filter-btn" data-filter="floral">Floral</button>
-    <button class="filter-btn" data-filter="food">Food & Kitchen</button>
+    <button class="filter-btn" data-filter="fall">Fall</button>
+    <button class="filter-btn" data-filter="food-kitchen">Food & Kitchen</button>
     <button class="filter-btn" data-filter="geometric">Geometric</button>
     <button class="filter-btn" data-filter="holiday">Holiday</button>
-    <button class="filter-btn" data-filter="nursery">Nursery</button>
+    <button class="filter-btn" data-filter="night-sky">Night Sky</button>
     <button class="filter-btn" data-filter="origami">Origami</button>
-    <button class="filter-btn" data-filter="retro">Retro</button>
-    <button class="filter-btn" data-filter="woodland">Woodland</button>
+    <button class="filter-btn" data-filter="rainbow">Rainbow</button>
+    <button class="filter-btn" data-filter="recreation">Recreation</button>
+    <button class="filter-btn" data-filter="spring">Spring</button>
+    <button class="filter-btn" data-filter="summer">Summer</button>
+    <button class="filter-btn" data-filter="vintage-retro">Vintage & Retro</button>
+    <button class="filter-btn" data-filter="winter">Winter</button>
   </div>
-  <p class="result-count" id="resultCount">101 designs</p>
+  <p class="result-count" id="resultCount"></p>
 </div>
-<div class="catalog-grid" id="catalogGrid">
-    <div class="catalog-card" data-cats="holiday food" data-name="back to school abc 123 apples books teacher classroom">
-      <div class="card-img-wrap">
-        <img src="images/Back to School ABC 123 Apples Books Teacher Classroom.jpeg" alt="Back to School ABC 123 Apples Books Teacher Classroom — One way, grid pattern on a table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Back to School ABC 123 Apples Books Teacher Classroom</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17704171" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric woodland" data-name="brick row blue abstract watercolor tree of life">
-      <div class="card-img-wrap">
-        <img src="images/Brick Row Blue Abstract Watercolor Tree of Life.jpeg" alt="Brick Row Blue Abstract Watercolor Tree of Life — One way, half drop pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Brick Row Blue Abstract Watercolor Tree of Life</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17328318" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal" data-name="brick row watercolor scallop fan shaped seashells">
-      <div class="card-img-wrap">
-        <img src="images/Brick Row Watercolor Scalloped Fan Shaped Seashells.jpeg" alt="Brick Row Watercolor Scallop Fan Shaped Seashells — One way, brick row pattern on a tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Brick Row Watercolor Scalloped Fan Shaped Seashells</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16385186" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="celebrate with champagne bottles bubbles and glass flutes">
-      <div class="card-img-wrap">
-        <img src="images/Celebrate with Champagne Bottles Bubbles and Glass Flutes.jpeg" alt="Celebrate with Champagne Bottles Bubbles and Glass Flutes — Two way pattern on a placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Celebrate with Champagne Bottles Bubbles and Glass Flutes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16263125" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="chefcore kitchen half drop kiwi fruit slices">
-      <div class="card-img-wrap">
-        <img src="images/Chefcore Kitchen Half Drop Kiwi Fruits Slices.jpeg" alt="Chefcore Kitchen Half Drop Kiwi Fruit Slices — Two way, half drop pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Chefcore Kitchen Half Drop Kiwi Fruit Slices</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16444972" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="chefcore kitchen two way summer watermelon slices">
-      <div class="card-img-wrap">
-        <img src="images/Chefcore Kitchen Two Way Summer Watermelon Slices.jpeg" alt="Chefcore Kitchen Two Way Summer Watermelon Slices — Two way, half drop pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Chefcore Kitchen Two Way Summer Watermelon Slices</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16474256" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami animal" data-name="colorful tossed japanese origami paper butterflies">
-      <div class="card-img-wrap">
-        <img src="images/Colorful Tossed Japanese Origami Paper Butterflies.jpeg" alt="Colorful Tossed Japanese Origami Paper Butterflies — Toss pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Colorful Tossed Japanese Origami Paper Butterflies</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16282423" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami coquette" data-name="colorful tossed rainbow japanese origami paper hearts">
-      <div class="card-img-wrap">
-        <img src="images/Colorful Tossed Rainbow Japanese Origami Paper Hearts.jpeg" alt="Colorful Tossed Rainbow Japanese Origami Paper Hearts — Toss pattern on a standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Colorful Tossed Rainbow Japanese Origami Paper Hearts</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16281324" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday" data-name="cute halloween skull trio with hair bows and bowties">
-      <div class="card-img-wrap">
-        <img src="images/Cute Halloween Skull Trio with Hair Bows and Bowties.jpeg" alt="Cute Halloween Skull Trio with Hair Bows and Bowties — One way, half drop pattern on table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Cute Halloween Skull Trio with Hair Bows and Bowties</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17966739" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday geometric" data-name="delicate half drop powder blue snowflake trio">
-      <div class="card-img-wrap">
-        <img src="images/Delicate Half Drop Powder Blue Snowflake Trio.jpeg" alt="Delicate Half Drop Powder Blue Snowflake Trio — Four way, half drop pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Delicate Half Drop Powder Blue Snowflake Trio</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18271190" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal geometric" data-name="diamond layout beach rocks and sea glass">
-      <div class="card-img-wrap">
-        <img src="images/Diamond Layout Beach Rocks and Sea Glass.jpeg" alt="Diamond Layout Beach Rocks and Sea Glass — Four way, diamond layout on table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Diamond Layout Beach Rocks and Sea Glass</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479412-diamond-layout-beach-rocks-sea-glass-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric" data-name="festive colorful multicolor rainbow polka dots half drop">
-      <div class="card-img-wrap">
-        <img src="images/Festive Colorful Multicolor Rainbow Dots Half Drop Grid.jpeg" alt="Festive Colorful Multicolor Rainbow Polka Dots Half Drop — One way, half drop pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Festive Colorful Multicolor Rainbow Polka Dots Half Drop</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16253288" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food geometric" data-name="fresh citrus oranges fruit diamond geometric">
-      <div class="card-img-wrap">
-        <img src="images/Fresh Citrus Oranges Fruit Diamond Geometric.jpeg" alt="Fresh Citrus Oranges Fruit Diamond Geometric — Two way pattern on a table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Fresh Citrus Oranges Fruit Diamond Geometric</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479093-fresh-citrus-oranges-fruit-diamond-geometric-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="grid diamond star cross stitch geometric blender">
-      <div class="card-img-wrap">
-        <img src="images/Grid Diamond Star Cross Stitch Geometric Blender.jpeg" alt="Grid Diamond Star Cross Stitch Geometric Blender — Four way pattern on a throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Grid Diamond Star Cross Stitch Geometric Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479441-grid-diamond-star-cross-stitch-geometric-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="half brick boho botanical sprig leaf blender">
-      <div class="card-img-wrap">
-        <img src="images/Half Brick Boho Botanical Sprig Leaf Blender.jpeg" alt="Half Brick Boho Botanical Sprig Leaf Blender — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Brick Boho Botanical Sprig Leaf Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479411-half-brick-boho-botanical-sprig-leaf-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric woodland" data-name="half drop abstract watercolor tree of life">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Abstract Watercolor Tree of Life.jpeg" alt="Half Drop Abstract Watercolor Tree of Life — Two way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Abstract Watercolor Tree of Life</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17328670" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral" data-name="half drop botanical three green leaf clusters">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Botanical Three Green Leaf Clusters.jpeg" alt="Half Drop Botanical Three Green Leaf Clusters — Two way, half drop pattern on a tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Botanical Three Green Leaf Clusters</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16849388" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="half drop diamond star cross geometric blender">
-      <div class="card-img-wrap coming-soon-wrap">
-        <img src="images/Half Drop Diamond Star Cross Geometric Blender.jpeg" alt="Half Drop Diamond Star Cross Geometric Blender — Four way pattern on a throw pillow by Studio LHB" class="card-img" loading="lazy">
-        <div class="coming-soon-badge">Coming Soon</div>
-      </div>
-      <p class="card-title">Half Drop Diamond Star Cross Geometric Blender</p>
-      <a class="btn card-btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Notify Me</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="half drop geometric dots tonal blender quilting coordinate">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Geometric Dots Tonal Blender Quilting Coordinate.jpeg" alt="Half Drop Geometric Dots Tonal Blender Quilting Coordinate — Four way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Geometric Dots Tonal Blender Quilting Coordinate</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479324-half-drop-geometric-dots-tonal-blender-quilting-coordinate-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender" data-name="half drop iridescent feathers blender">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Iridescent Feathers Blender.jpeg" alt="Half Drop Iridescent Feathers Blender — One way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Iridescent Feathers Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479409-half-drop-iridescent-feathers-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal" data-name="half drop irregular organic shaped sea glass">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Irregular Organic Shaped Sea Glass.jpeg" alt="Half Drop Irregular Organic Shaped Sea Glass — Two way pattern on a throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Irregular Organic Shaped Sea Glass</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479397-half-drop-irregular-organic-shaped-sea-glass-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric" data-name="half drop ornate decorative layered diamond brooch">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Ornate Decorative Layered Diamond Brooch.jpeg" alt="Half Drop Ornate Decorative Layered Diamond Brooch — Two way, half drop pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Ornate Decorative Layered Diamond Brooch</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479116-half-drop-ornate-decorative-layered-diamond-brooch-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal nursery" data-name="half drop pink girls tropical flamingo silhouette">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Pink Girls Tropical Flamingo Silhouette.jpeg" alt="Half Drop Pink Girls Tropical Flamingo Silhouette — One way, half drop pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Pink Girls Tropical Flamingo Silhouette</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17836506" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="half drop cupped floral blender quilting low volume coordinate">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Cupped Floral Blender Quilting Low Volume Coordinate.jpeg" alt="Half Drop Cupped Floral Blender Quilting Low Volume Coordinate — One way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Cupped Floral Blender Quilting Low Volume Coordinate</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/21755027" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="half drop textured lily botanical blender low volume">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Textured Lily Botanical Blender Low Volume.jpeg" alt="Half Drop Textured Lily Botanical Blender Low Volume — One way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Textured Lily Botanical Blender Low Volume</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/21779068" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="half drop tonal geranium botanical blender low volume">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Tonal Geranium Botanical Blender Low Volume.jpeg" alt="Half Drop Tonal Geranium Botanical Blender Low Volume — One way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Tonal Geranium Botanical Blender Low Volume</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/21779210" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro coquette" data-name="half drop vintage victorian gold key with tiny heart">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Vintage Victorian Gold Key with Tiny Heart.jpeg" alt="Half Drop Vintage Victorian Gold Key with Tiny Heart — One way, half drop pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Vintage Victorian Gold Key with Tiny Heart</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17841702" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="harlequin diamond grid lattice bow tie blender">
-      <div class="card-img-wrap coming-soon-wrap">
-        <img src="images/Harlequin Diamond Grid Lattice Bow Tie Blender.jpeg" alt="Harlequin Diamond Grid Lattice Bow Tie Blender — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-        <div class="coming-soon-badge">Coming Soon</div>
-      </div>
-      <p class="card-title">Harlequin Diamond Grid Lattice Bow Tie Blender</p>
-      <a class="btn card-btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Notify Me</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="harlequin diamond grid lattice geometric blender">
-      <div class="card-img-wrap coming-soon-wrap">
-        <img src="images/Harlequin Diamond Grid Lattice Geometric Blender.jpeg" alt="Harlequin Diamond Grid Lattice Geometric Blender — Four way pattern on a throw pillow by Studio LHB" class="card-img" loading="lazy">
-        <div class="coming-soon-badge">Coming Soon</div>
-      </div>
-      <p class="card-title">Harlequin Diamond Grid Lattice Geometric Blender</p>
-      <a class="btn card-btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Notify Me</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric coquette" data-name="harlequin diamond grid lattice ribbon bow blender">
-      <div class="card-img-wrap">
-        <img src="images/Harlequin Diamond Grid Lattice Ribbon Bow Blender.jpeg" alt="Harlequin Diamond Grid Lattice Ribbon Bow Blender — One way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Harlequin Diamond Grid Lattice Ribbon Bow Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479446-harlequin-diamond-grid-lattice-ribbon-bow-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday coquette" data-name="hot pink striped valentines day heart chocolate">
-      <div class="card-img-wrap">
-        <img src="images/Hot Pink Striped Valentines Day Heart Chocolate.jpeg" alt="Hot Pink Striped Valentines Day Heart Chocolate — Two way pattern on a table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Hot Pink Striped Valentines Day Heart Chocolate</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16256969" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="illustrated two way homemade artisan bread loaf">
-      <div class="card-img-wrap">
-        <img src="images/Illustrated Two Way Homemade Artisan Bread Loaf.jpeg" alt="Illustrated Two Way Homemade Artisan Bread Loaf — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Illustrated Two Way Homemade Artisan Bread Loaf</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16253471" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday animal origami nursery" data-name="japanese origami geometric party dogs and cats in birthday hats">
-      <div class="card-img-wrap">
-        <img src="images/Japanese Origami Geometric Party Dogs and Cats in Birthday Hats.jpeg" alt="Japanese Origami Geometric Party Dogs and Cats in Birthday Hats — One way, brick row pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Japanese Origami Geometric Party Dogs and Cats in Birthday Hats</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479078-japanese-origami-geometric-party-dogs-cats-birthday-hats-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal origami" data-name="japanese swimming koi fish and beaded stripe lines">
-      <div class="card-img-wrap">
-        <img src="images/Japanese Swimming Koi Fish and Beaded Stripe Lines.jpeg" alt="Japanese Swimming Koi Fish and Beaded Stripe Lines — Two way pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Japanese Swimming Koi Fish and Beaded Stripe Lines</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16475879" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal origami" data-name="japanese origami paper cranes">
-      <div class="card-img-wrap">
-        <img src="images/Japanese Origami Paper Crane.jpeg" alt="Japanese Origami Paper Cranes — One way, half drop pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Japanese Origami Paper Cranes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479053-japanese-origami-paper-cranes-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral retro" data-name="mid century modern folk art rustic botanical flowers">
-      <div class="card-img-wrap">
-        <img src="images/Midcentury Modern Folk Art Rustic Botanical Flowers.jpeg" alt="Mid Century Modern Folk Art Rustic Botanical Flowers — One way, brick row pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Mid-Century Modern Folk Art Rustic Botanical Flowers</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18086885" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender coquette" data-name="monochromatic coquette bows and hearts blender">
-      <div class="card-img-wrap">
-        <img src="images/Monochromatic Coquette Bows and Hearts Blender.jpeg" alt="Monochromatic Coquette Bows and Hearts Blender — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Monochromatic Coquette Bows and Hearts Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479384-monochromatic-coquette-bows-hearts-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro" data-name="multicolored vintage retro paper admit one tickets">
-      <div class="card-img-wrap">
-        <img src="images/Multicolored Vintage Retro Paper Admit One Tickets.jpeg" alt="Multicolored Vintage Retro Paper Admit One Tickets — One way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Multicolored Vintage Retro Paper Admit One Tickets</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479100-multicolored-vintage-retro-paper-admit-one-tickets-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal origami woodland nursery" data-name="nursery woodland japanese origami baby foxes">
-      <div class="card-img-wrap">
-        <img src="images/Nursery Woodland Japanese Origami Baby Foxes.jpeg" alt="Nursery Woodland Japanese Origami Baby Foxes — One way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Nursery Woodland Japanese Origami Baby Foxes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16297446" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday nursery" data-name="happy birthday candles">
-      <div class="card-img-wrap">
-        <img src="images/One Way Assorted Variety Mixed Birthday Party Candles.jpeg" alt="Happy Birthday Candles — One way pattern on placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Happy Birthday Candles</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1481688-happy-birthday-candles-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal nursery" data-name="one way cute baby nursery whales and seaweed">
-      <div class="card-img-wrap">
-        <img src="images/One Way Cute Baby Nursery Whales and Seaweed.jpeg" alt="One Way Cute Baby Nursery Whales and Seaweed — One way pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Cute Baby Nursery Whales and Seaweed</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18040545" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday nursery" data-name="one way cute little kid ghosts in vintage costumes">
-      <div class="card-img-wrap">
-        <img src="images/One Way Cute Little Kid Ghosts in Vintage Costumes.jpeg" alt="One Way Cute Little Kid Ghosts in Vintage Costumes — One way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Cute Little Kid Ghosts in Vintage Costumes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17985240" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral" data-name="one way half drop berry crocus botanical flower">
-      <div class="card-img-wrap">
-        <img src="images/One Way Half Drop Berry Crocus Botanical Flower.jpeg" alt="One Way Half Drop Berry Crocus Botanical Flower — One way pattern on table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Half Drop Berry Crocus Botanical Flower</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/19211808" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender coquette" data-name="one way half drop monochrome blender hearts">
-      <div class="card-img-wrap">
-        <img src="images/One Way Half Drop Monochrome Blender Hearts.jpeg" alt="One Way Half Drop Monochrome Blender Hearts — One way, half drop pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Half Drop Monochrome Blender Hearts</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479338-one-way-half-drop-monochrome-blender-hearts-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="one way half drop textured coffee bean chefcore">
-      <div class="card-img-wrap coming-soon-wrap">
-        <img src="images/One Way Half Drop Textured Coffee Bean Chefcore.jpeg" alt="One Way Half Drop Textured Coffee Bean Chefcore — One way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-        <div class="coming-soon-badge">Coming Soon</div>
-      </div>
-      <p class="card-title">One Way Half Drop Textured Coffee Bean Chefcore</p>
-      <a class="btn card-btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Notify Me</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday" data-name="one way multicolor festive christmas ornaments baubles">
-      <div class="card-img-wrap">
-        <img src="images/One Way Multicolor Festive Christmas Ornaments Baubles.jpeg" alt="One Way Multicolor Festive Christmas Ornaments Baubles — One way pattern on table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Multicolor Festive Christmas Ornaments Baubles</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18331371" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="woodland" data-name="one way texture watercolor blue mushroom fungi">
-      <div class="card-img-wrap">
-        <img src="images/One Way Texture Watercolor Blue Mushroom Fungi.jpeg" alt="One Way Texture Watercolor Blue Mushroom Fungi — One way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">One Way Texture Watercolor Blue Mushroom Fungi</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479315-one-way-texture-watercolor-blue-mushroom-fungi-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender geometric" data-name="organic watercolor night sky stars and dots toss blender">
-      <div class="card-img-wrap">
-        <img src="images/Organic Watercolor Night Sky Stars and Dots Toss Blender.jpeg" alt="Organic Watercolor Night Sky Stars and Dots Toss Blender — Toss pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Organic Watercolor Night Sky Stars and Dots Toss Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479068-organic-watercolor-night-sky-stars-dots-toss-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal origami" data-name="origami geometric cats and dogs">
-      <div class="card-img-wrap">
-        <img src="images/Origami Geometric Cats and Dogs.jpeg" alt="Origami Geometric Cats and Dogs — Two way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Origami Geometric Cats and Dogs</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1480256-origami-geometric-cats-dogs-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral origami" data-name="origami kimono and fans or sakura cherry blossom">
-      <div class="card-img-wrap">
-        <img src="images/Origami Kimono Sakura Cherry Blossom Beaded Stripe.jpeg" alt="Origami Kimono and Fans or Sakura Cherry Blossom — One way pattern on table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Origami Kimono and Fans or Sakura Cherry Blossom</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1481161-origami-kimono-fans-sakura-cherry-blossom-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro" data-name="pinball arcade toss retro game room">
-      <div class="card-img-wrap">
-        <img src="images/Pinball Arcade Toss Retro Game Room.jpeg" alt="Pinball Arcade Toss Retro Game Room — Toss pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Pinball Arcade Toss Retro Game Room</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479039-pinball-arcade-toss-retro-game-room-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami" data-name="pink green blue purple origami water balloon box">
-      <div class="card-img-wrap">
-        <img src="images/Pink Green Blue Purple Origami Water Balloon Box.jpeg" alt="Pink Green Blue Purple Origami Water Balloon Box — One way pattern on table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Pink Green Blue Purple Origami Water Balloon Box</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479425-pink-green-blue-purple-origami-water-balloon-box-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami coquette" data-name="paper fans with hearts and beaded stripes">
-      <div class="card-img-wrap">
-        <img src="images/Pink Paper Fans with Hearts and Beaded Stripes.jpeg" alt="Paper Fans with Hearts and Beaded Stripes — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Paper Fans with Hearts and Beaded Stripes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16460457" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric" data-name="playful whimsical diagonal striped puffy clouds">
-      <div class="card-img-wrap">
-        <img src="images/Playful Whimsical Diagonal Striped Puffy Clouds.jpeg" alt="Playful Whimsical Diagonal Striped Puffy Clouds — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Playful Whimsical Diagonal Striped Puffy Clouds</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16361698" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal" data-name="watercolor paw print toss">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Paw Print Toss.jpeg" alt="Watercolor Paw Print Toss — Toss pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Paw Print Toss</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479051-watercolor-paw-print-toss-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral food origami" data-name="red cherry fruit pink sakura cherry blossoms and paper fans">
-      <div class="card-img-wrap">
-        <img src="images/Red Cherry Fruit Sakura Cherry Blossoms and Paper Fans.jpeg" alt="Red Cherry Fruit Pink Sakura Cherry Blossoms and Paper Fans — One way pattern on standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Red Cherry Fruit Pink Sakura Cherry Blossoms and Paper Fans</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479103-red-cherry-fruit-pink-sakura-cherry-blossoms-fans-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="red cherry watermelon apple strawberry fruit">
-      <div class="card-img-wrap">
-        <img src="images/Red Cherry Watermelon Apple Strawberry Fruit.jpeg" alt="Red Cherry Watermelon Apple Strawberry Fruit — One way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Red Cherry Watermelon Apple Strawberry Fruit</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16411390" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="red orange yellow carrot root vegetable garden">
-      <div class="card-img-wrap">
-        <img src="images/Red Orange Yellow Carrot Root Vegetable Garden.jpeg" alt="Red Orange Yellow Carrot Root Vegetable Garden — One way pattern on placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Red Orange Yellow Carrot Root Vegetable Garden</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479435-red-orange-yellow-carrot-root-vegetable-garden-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral retro coquette" data-name="retro vintage heart round floral coquette sunglasses">
-      <div class="card-img-wrap">
-        <img src="images/Retro Vintage Heart Round Floral Coquette Sunglasses.jpeg" alt="Retro Vintage Heart Round Floral Coquette Sunglasses — One way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Retro Vintage Heart Round Floral Coquette Sunglasses</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479138-retro-vintage-heart-round-floral-coquette-sunglasses-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday food" data-name="round valentines day truffles with sprinkles">
-      <div class="card-img-wrap">
-        <img src="images/Round Valentines Day Truffles with Sprinkles.jpeg" alt="Round Valentines Day Truffles with Sprinkles — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Round Valentines Day Truffles with Sprinkles</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16257222" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday animal" data-name="watercolor easter bunnies silhouettes and spring cottagecore">
-      <div class="card-img-wrap">
-        <img src="images/Spring Cottagecore Easter Bunny Silhouettes.jpeg" alt="Watercolor Easter Bunnies Silhouettes and Spring Cottagecore — One way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Easter Bunnies Silhouettes and Spring Cottagecore</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479123-watercolor-easter-bunnies-silhouettes-spring-cottagecore-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro" data-name="throwback to the 90s vintage retro paper folded notes">
-      <div class="card-img-wrap">
-        <img src="images/Throwback to the 90s Vintage Retro Paper Folded Notes.jpeg" alt="Throwback to the 90s Vintage Retro Paper Folded Notes — One way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Throwback to the 90s Vintage Retro Paper Folded Notes</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16878228" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="nursery coquette" data-name="tiny dancer girl ballet pointe shoes with hearts">
-      <div class="card-img-wrap">
-        <img src="images/Tiny Dancer Girl Purple Ballet Pointe Shoes with Hearts.jpeg" alt="Tiny Dancer Girl Ballet Pointe Shoes with Hearts — One way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tiny Dancer Girl Ballet Pointe Shoes with Hearts</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17437990" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="tonal blender pansy quilting coordinate low volume">
-      <div class="card-img-wrap">
-        <img src="images/Tonal Blender Pansy Quilting Coordinate Low Volume.jpeg" alt="Tonal Blender Pansy Quilting Coordinate Low Volume — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tonal Blender Pansy Quilting Coordinate Low Volume</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479322-tonal-blender-pansy-quilting-coordinate-low-volume-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender floral" data-name="tonal lily floral half drop mini blender">
-      <div class="card-img-wrap">
-        <img src="images/Tonal Lily Floral Half Drop Mini Blender Quilting Coordinate.jpeg" alt="Tonal Lily Floral Half Drop Mini Blender — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tonal Lily Floral Half Drop Mini Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/21770936" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami geometric" data-name="toss overlapping rainbow lucky japanese origami stars">
-      <div class="card-img-wrap">
-        <img src="images/Toss Overlapping Rainbow Lucky Japanese Origami Stars.jpeg" alt="Toss Overlapping Rainbow Lucky Japanese Origami Stars — Toss pattern on a standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Toss Overlapping Rainbow Lucky Japanese Origami Stars</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16298150" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro" data-name="toss retro pinball wizard arcade gaming entertainment version 2">
-      <div class="card-img-wrap">
-        <img src="images/Toss Retro Pinball Wizard Arcade Gaming Entertainment Version 2.jpeg" alt="Toss Retro Pinball Wizard Arcade Gaming Entertainment Version 2 — Toss pattern on table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Toss Retro Pinball Wizard Arcade Gaming Entertainment Version 2</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479426-toss-retro-pinball-wizard-arcade-gaming-entertainment-version-2-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="woodland" data-name="toss watercolor cabincore nature woodland forest">
-      <div class="card-img-wrap">
-        <img src="images/Toss Watercolor Cabincore Nature Woodland Forest.jpeg" alt="Toss Watercolor Cabincore Nature Woodland Forest — Toss pattern on table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Toss Watercolor Cabincore Nature Woodland Forest</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479334-toss-watercolor-cabincore-nature-woodland-forest-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral woodland" data-name="tossed cabincore cozy woodland forest outdoor botanical">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Cabincore Cozy Woodland Forest Outdoor Botanical.jpeg" alt="Tossed Cabincore Cozy Woodland Forest Outdoor Botanical — Toss pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Cabincore Cozy Woodland Forest Outdoor Botanical</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18167991" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral food" data-name="tossed fall harvest pumpkins gourds and leaves">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Fall Harvest Pumpkins Gourds and Leaves.jpeg" alt="Tossed Fall Harvest Pumpkins Gourds and Leaves — Toss pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Fall Harvest Pumpkins Gourds and Leaves</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18050877" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral food" data-name="tossed harvest sliced bartlett pears fruit and leaves">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Harvest Sliced Bartlett Pears Fruit and Leaves.jpeg" alt="Tossed Harvest Sliced Bartlett Pears Fruit and Leaves — Toss pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Harvest Sliced Bartlett Pears Fruit and Leaves</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18086978" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal" data-name="tossed modern nautical beach seashells sea glass coral">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Modern Nautical Beach Seashells Sea Glass Coral.jpeg" alt="Tossed Modern Nautical Beach Seashells Sea Glass Coral — Toss pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Modern Nautical Beach Seashells Sea Glass Coral</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479390-tossed-modern-nautical-beach-seashells-sea-glass-coral-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal" data-name="tossed multicolored badminton racket shuttlecock birdie">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Multicolored Badminton Racket Shuttlecock Birdie.jpeg" alt="Tossed Multicolored Badminton Racket Shuttlecock Birdie — Toss pattern on standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Multicolored Badminton Racket Shuttlecock Birdie</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16804931" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral woodland" data-name="tossed southwest desert cactus and pink flowers">
-      <div class="card-img-wrap">
-        <img src="images/Tossed Southwest Desert Cactus and Pink Flowers.jpeg" alt="Tossed Southwest Desert Cactus and Pink Flowers — Toss pattern on a standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Tossed Southwest Desert Cactus and Pink Flowers</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18014590" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday" data-name="christmas bell mitten star holiday cookies">
-      <div class="card-img-wrap">
-        <img src="images/Traditional Red and Green Christmas Bell Mitten Star Holiday Cookies.jpeg" alt="Christmas Bell Mitten Star Holiday Cookies — One way pattern on table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Christmas Bell Mitten Star Holiday Cookies</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16195569" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal" data-name="triangle clustered scalloped fan shaped seashells">
-      <div class="card-img-wrap">
-        <img src="images/Triangle Clustered Scalloped Fan Shaped Seashells.jpeg" alt="Triangle Clustered Scalloped Fan Shaped Seashells — One way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Triangle Clustered Scalloped Fan Shaped Seashells</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16385390" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="two directional compact bartlett pear fruit rows">
-      <div class="card-img-wrap">
-        <img src="images/Two Directional Compact Bartlett Pear Rows.jpeg" alt="Two Directional Compact Bartlett Pear Fruit Rows — Two way pattern on a placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Directional Compact Bartlett Pear Fruit Rows</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16253461" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="geometric blender" data-name="two way blue gradient arrows chevron geometric stripe">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Blue Gradient Arrows Chevron Geometric Stripe.jpeg" alt="Two Way Blue Gradient Arrows Chevron Geometric Stripe — Two way pattern on curtains by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Blue Gradient Arrows Chevron Geometric Stripe</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/17287008" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="two way chefcore brick pattern yellow banana fruit">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Chefcore Brick Pattern Yellow Banana Fruit.jpeg" alt="Two Way Chefcore Brick Pattern Yellow Banana Fruit — Two way pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Chefcore Brick Pattern Yellow Banana Fruit</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16411710" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral" data-name="two way dramatic jewel tulip flower bloom">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Dramatic Jewel Tulip Flower Bloom.jpeg" alt="Two Way Dramatic Jewel Tulip Flower Bloom — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Dramatic Jewel Tulip Flower Bloom</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479317-two-way-dramatic-jewel-tulip-flower-bloom-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday geometric" data-name="two way festive christmas holiday ornaments bauble snowflakes stars">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Festive Christmas Holiday Ornaments Bauble Snowflakes Stars.jpeg" alt="Two Way Festive Christmas Holiday Ornaments Bauble Snowflakes Stars — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Festive Christmas Holiday Ornaments Bauble Snowflakes Stars</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16253371" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food geometric" data-name="geometric blueberries fruit">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Geometric Diamond Blueberries Fruit.jpeg" alt="Geometric Blueberries Fruit — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Geometric Blueberries Fruit</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16426307" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="two way green bartlett pear kiwi avocado fruit">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Green Bartlett Pear Avocado Fruit.jpeg" alt="Two Way Green Bartlett Pear Kiwi Avocado Fruit — Two way pattern on a placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Green Bartlett Pear Kiwi Avocado Fruit</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16411270" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="woodland" data-name="two way half brick rustic woodland cabincore pinecones">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Half Brick Rustic Woodland Cabincore Pinecones.jpeg" alt="Two Way Half Brick Rustic Woodland Cabincore Pinecones — Two way pattern on a table runner and napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Half Brick Rustic Woodland Cabincore Pinecones</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18601966" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="two way half drop pastel ice cream cone summer treat">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Half Drop Pastel Ice Cream Cone Summer Treat.jpeg" alt="Two Way Half Drop Pastel Ice Cream Cone Summer Treat — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Half Drop Pastel Ice Cream Cone Summer Treat</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18561324" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food" data-name="two way half drop textured coffee bean chefcore">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Half Drop Textured Coffee Bean Chefcore.jpeg" alt="Two Way Half Drop Textured Coffee Bean Chefcore — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Half Drop Textured Coffee Bean Chefcore</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479373-two-way-half-drop-textured-coffee-bean-chefcore-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender" data-name="two way iridescent feathers blender">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Iridescent Blue Green Feathers Blender.jpeg" alt="Two Way Iridescent Feathers Blender — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Iridescent Feathers Blender</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479407-two-way-iridescent-feathers-blender-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal" data-name="two way multicolored badminton recreation sport racket">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Multicolored Badminton Recreation Sport Racket.jpeg" alt="Two Way Multicolored Badminton Recreation Sport Racket — Two way pattern on tea towel by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Multicolored Badminton Recreation Sport Racket</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16803453" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal" data-name="two way multicolored badminton shuttlecock">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Multicolored Badminton Shuttlecock.jpeg" alt="Two Way Multicolored Badminton Shuttlecock — Two way pattern on wallpaper by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Multicolored Badminton Shuttlecock</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16803514" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday geometric" data-name="two way red white stripe candy cane with green bow">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Red White Stripe Candy Cane with Green Bow.jpeg" alt="Two Way Red White Stripe Candy Cane with Green Bow — Two way pattern on a placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Red White Stripe Candy Cane with Green Bow</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18378709" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal coastal" data-name="two way watercolor sea turtle geometric shell">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Watercolor Sea Turtle Geometric Blue Shell.jpeg" alt="Two Way Watercolor Sea Turtle Geometric Shell — Two way pattern on standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Watercolor Sea Turtle Geometric Shell</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479693-two-way-watercolor-sea-turtle-geometric-blue-shell-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral food" data-name="two way whimsical botanical carrot root vegetable garden">
-      <div class="card-img-wrap">
-        <img src="images/Two Way Whimsical Botanical Orange Carrot Root Vegetable Garden.jpeg" alt="Two Way Whimsical Botanical Carrot Root Vegetable Garden — Two way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Two Way Whimsical Botanical Carrot Root Vegetable Garden</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16253387" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="food retro" data-name="vintage retro cherry strawberry glass jam jars">
-      <div class="card-img-wrap">
-        <img src="images/Vintage Retro Cherry Strawberry Glass Jam Jars.jpeg" alt="Vintage Retro Cherry Strawberry Glass Jam Jars — One way pattern on placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Vintage Retro Cherry Strawberry Glass Jam Jars</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479099-vintage-retro-cherry-strawberry-glass-jam-jars-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="coastal" data-name="watercolor boho coastal beach seashell toss">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Boho Coastal Beach Seashell Toss.jpeg" alt="Watercolor Boho Coastal Beach Seashell Toss — Toss pattern on table runner by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Boho Coastal Beach Seashell Toss</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479332-watercolor-boho-coastal-beach-seashell-toss-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="origami geometric" data-name="watercolor geometric origami paper cups">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Geometric Origami Paper Cups.jpeg" alt="Watercolor Geometric Origami Paper Cups — Two way pattern on curtains by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Geometric Origami Paper Cups</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/16317195" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="blender animal coquette" data-name="watercolor paw print toss blender with hearts">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Paw Print Toss Blender with Hearts.jpeg" alt="Watercolor Paw Print Toss Blender with Hearts — Toss pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Paw Print Toss Blender with Hearts</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479329-watercolor-paw-print-toss-blender-hearts-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal" data-name="watercolor paw print half drop">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Paw Print Half Drop.jpeg" alt="Watercolor Paw Print Half Drop — Two way pattern on throw pillow by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Paw Print Half Drop</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479052-watercolor-paw-print-half-drop-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="holiday animal" data-name="watercolor spring easter bunny silhouette">
-      <div class="card-img-wrap">
-        <img src="images/Watercolor Spring Easter Bunny Silhouette Bows Hearts.jpeg" alt="Watercolor Spring Easter Bunny Silhouette — One way pattern on placemat by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Watercolor Spring Easter Bunny Silhouette</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/collections/1479128-watercolor-spring-easter-bunny-silhouette-by-studiolhb" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="retro woodland" data-name="wild west rustic vintage southwestern americana">
-      <div class="card-img-wrap">
-        <img src="images/Wild West Rustic Vintage Southwestern Americana.jpeg" alt="Wild West Rustic Vintage Southwestern Americana — One way pattern on throw blanket by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Wild West Rustic Vintage Southwestern Americana</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18121844" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="animal woodland nursery" data-name="woodland fox forest animal baby nursery room">
-      <div class="card-img-wrap">
-        <img src="images/Woodland Fox Forest Animal Baby Nursery Room.jpeg" alt="Woodland Fox Forest Animal Baby Nursery Room — One way pattern on standard pillowcase by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Woodland Fox Forest Animal Baby Nursery Room</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/18008235" target="_blank">Shop Colorways & Scales</a>
-    </div>
-    <div class="catalog-card" data-cats="floral" data-name="half drop bright cheerful yellow sunflower">
-      <div class="card-img-wrap">
-        <img src="images/Half Drop Bright Cheerful Yellow Sunflower.jpeg" alt="Half Drop Bright Cheerful Yellow Sunflower — Four way pattern on napkins by Studio LHB" class="card-img" loading="lazy">
-      </div>
-      <p class="card-title">Half Drop Bright Cheerful Yellow Sunflower</p>
-      <a class="btn card-btn" href="https://www.spoonflower.com/en/artists/fabric/21778720" target="_blank">Shop Colorways & Scales</a>
-    </div>
-</div>
+<div class="catalog-grid" id="catalogGrid"></div>
 <footer class="site-footer">
   <p>© 2026 Studio LHB — All Rights Reserved</p>
 </footer>
 </div>
+<script src="designs.js"></script>
 <script>
-  const cards = document.querySelectorAll('.catalog-card');
+  const grid = document.getElementById('catalogGrid');
   const searchInput = document.getElementById('searchInput');
   const filterBtns = document.querySelectorAll('.filter-btn');
   const resultCount = document.getElementById('resultCount');
   let activeFilter = 'all';
 
+  designs.forEach(d => {
+    const card = document.createElement('div');
+    card.className = 'catalog-card';
+    card.dataset.cats = d.cats.join(' ');
+    card.dataset.name = d.name.toLowerCase();
+    if (d.status === 'coming soon') {
+      card.innerHTML = `<div class="card-img-wrap coming-soon-wrap"><img src="images/${d.img}" alt="${d.alt}" class="card-img" loading="lazy"><div class="coming-soon-badge">Coming Soon</div></div><p class="card-title">${d.name}</p><a class="btn card-btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Notify Me</a>`;
+    } else {
+      card.innerHTML = `<div class="card-img-wrap"><img src="images/${d.img}" alt="${d.alt}" class="card-img" loading="lazy"></div><p class="card-title">${d.name}</p><a class="btn card-btn" href="${d.url}" target="_blank">Shop Colorways & Scales</a>`;
+    }
+    grid.appendChild(card);
+  });
+
   function updateResults() {
     const query = searchInput.value.toLowerCase().trim();
+    const cards = document.querySelectorAll('.catalog-card');
     let visible = 0;
     cards.forEach(card => {
-      const name = card.dataset.name || '';
-      const cats = card.dataset.cats || '';
-      const matchesSearch = !query || name.includes(query);
-      const matchesFilter = activeFilter === 'all' || cats.includes(activeFilter);
-      if (matchesSearch && matchesFilter) {
-        card.classList.remove('hidden');
-        visible++;
-      } else {
-        card.classList.add('hidden');
-      }
+      const matchesSearch = !query || card.dataset.name.includes(query);
+      const matchesFilter = activeFilter === 'all' || card.dataset.cats.includes(activeFilter);
+      if (matchesSearch && matchesFilter) { card.classList.remove('hidden'); visible++; }
+      else { card.classList.add('hidden'); }
     });
     resultCount.textContent = visible === 1 ? '1 design' : visible + ' designs';
     let noResults = document.getElementById('noResults');
     if (visible === 0) {
-      if (!noResults) {
-        noResults = document.createElement('p');
-        noResults.id = 'noResults';
-        noResults.className = 'no-results';
-        noResults.textContent = 'No designs found. Try a different search or filter.';
-        document.getElementById('catalogGrid').appendChild(noResults);
-      }
-    } else if (noResults) {
-      noResults.remove();
-    }
+      if (!noResults) { noResults = document.createElement('p'); noResults.id = 'noResults'; noResults.className = 'no-results'; noResults.textContent = 'No designs found. Try a different search or filter.'; grid.appendChild(noResults); }
+    } else if (noResults) { noResults.remove(); }
   }
 
   searchInput.addEventListener('input', updateResults);
-
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
@@ -929,6 +124,7 @@
       updateResults();
     });
   });
+  updateResults();
 </script>
 </body>
 </html>
