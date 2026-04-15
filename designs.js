@@ -7,7 +7,7 @@ const designs = [
     name: "Back to School ABC 123 Apples Books Teacher Classroom",
     img: "Back to School ABC 123 Apples Books Teacher Classroom.jpeg",
     alt: "Back to School ABC 123 Apples Books Teacher Classroom — One way, grid pattern on a table runner by Studio LHB",
-    cats: ["baby-kids", "holiday"],
+    cats: ["baby-kids", "fall"],
     status: "live",
     url: "https://www.spoonflower.com/en/artists/fabric/17704171"
   },
@@ -783,7 +783,7 @@ const designs = [
     name: "Watercolor Spring Easter Bunny Silhouette",
     img: "Watercolor Spring Easter Bunny Silhouette.jpeg",
     alt: "Watercolor Spring Easter Bunny Silhouette — One way pattern on placemat by Studio LHB",
-    cats: ["animals", "holiday", "baby-kids"],
+    cats: ["animals", "holiday", "baby-kids", "spring"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1479128-watercolor-spring-easter-bunny-silhouette-by-studiolhb"
   },
