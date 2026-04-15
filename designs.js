@@ -381,7 +381,7 @@ const designs = [
   },
   {
     name: "Organic Watercolor Night Sky Stars & Dots Toss Blender",
-    img: "Organic Watercolor Night Sky Stars & Dots Toss Blender.jpeg",
+    img: "Organic Watercolor Night Sky Stars and Dots Toss Blender.jpeg",
     alt: "Organic Watercolor Night Sky Stars & Dots Toss Blender — Toss pattern on wallpaper by Studio LHB",
     cats: ["night-sky", "baby-kids"],
     status: "live",
@@ -445,7 +445,7 @@ const designs = [
   },
   {
     name: "Red Cherry Fruit, Pink Sakura Cherry Blossoms and Paper Fans",
-    img: "Red Cherry Fruit, Pink Sakura Cherry Blossoms and Paper Fans.jpeg",
+    img: "Red Cherry Fruit Pink Sakura Cherry Blossoms and Paper Fans.jpeg",
     alt: "Red Cherry Fruit, Pink Sakura Cherry Blossoms and Paper Fans — One way pattern on standard pillowcase by Studio LHB",
     cats: ["botanical", "origami", "food-kitchen", "spring"],
     status: "live",
@@ -620,9 +620,9 @@ const designs = [
     url: "https://www.spoonflower.com/en/artists/fabric/16253461"
   },
   {
-    name: "Two Way Blue Gradient Arrows Chevron Geometic Stripe",
-    img: "Two Way Blue Gradient Arrows Chevron Geometic Stripe.jpeg",
-    alt: "Two Way Blue Gradient Arrows Chevron Geometic Stripe — Two way pattern on curtains by Studio LHB",
+    name: "Two Way Blue Gradient Arrows Chevron Geometric Stripe",
+    img: "Two Way Blue Gradient Arrows Chevron Geometric Stripe.jpeg",
+    alt: "Two Way Blue Gradient Arrows Chevron Geometric Stripe — Two way pattern on curtains by Studio LHB",
     cats: ["geometric"],
     status: "live",
     url: "https://www.spoonflower.com/en/artists/fabric/17287008"
