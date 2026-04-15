@@ -380,9 +380,9 @@ const designs = [
     url: "https://www.spoonflower.com/en/collections/1479315-one-way-texture-watercolor-blue-mushroom-fungi-by-studiolhb"
   },
   {
-    name: "Organic Watercolor Night Sky Stars & Dots Toss Blender",
+    name: "Organic Watercolor Night Sky Stars and Dots Toss Blender",
     img: "Organic Watercolor Night Sky Stars and Dots Toss Blender.jpeg",
-    alt: "Organic Watercolor Night Sky Stars & Dots Toss Blender — Toss pattern on wallpaper by Studio LHB",
+    alt: "Organic Watercolor Night Sky Stars and Dots Toss Blender — Toss pattern on wallpaper by Studio LHB",
     cats: ["night-sky", "baby-kids"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1479068-organic-watercolor-night-sky-stars-dots-toss-blender-by-studiolhb"
