@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Studio LHB Freebies — free downloads with newsletter signup.">
+  <meta name="description" content="Studio LHB free downloads — yours with a newsletter signup.">
   <title>Freebies — Studio LHB</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .freebies-grid { max-width: 980px; margin: 0 auto; padding: 0 2rem 3rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .freebie-card { display: flex; flex-direction: column; }
+    .freebie-img-wrap { width: 100%; aspect-ratio: 1; overflow: hidden; border-radius: 8px; margin-bottom: 0.6rem; }
+    .freebie-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .freebie-title { font-family: 'Lato', sans-serif; font-size: 13px; color: #3a3530; margin-bottom: 0.5rem; line-height: 1.4; flex: 1; }
+    .freebie-btn { font-size: 10px; padding: 7px 12px; display: inline-block; align-self: flex-start; }
+    @media (max-width: 600px) { .freebies-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; padding: 0 1rem 2rem; } }
+  </style>
 </head>
 <body>
 <div class="site-wrap">
 <header class="site-header">
   <img src="images/2026 Studio LHB.png" alt="Studio LHB" class="tape-badge">
-  <p class="header-sub">Free Downloads</p>
+  <p class="header-sub">free downloads</p>
 </header>
 <nav class="btn-section">
   <div class="btn-row">
@@ -23,7 +32,7 @@
   <div class="btn-row">
     <a class="btn" href="catalog.html">Catalog</a>
     <a class="btn" href="new-releases.html">Weekly Drops</a>
-    <a class="btn" href="https://studio-lhb.kit.com/fresh-patterns">Pattern Drop</a>
+    <a class="btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Pattern Drop</a>
     <a class="btn" href="https://www.pinterest.com/studiolhb/" target="_blank">Pinterest</a>
   </div>
 </nav>
@@ -31,15 +40,37 @@
   <p class="statement">Everything here is free with a newsletter signup. The newsletter is separate from the weekly pattern drop — it's where I share what I'm working on, what's coming next, and the occasional freebie like this one. Sign up once and the download link comes straight to your inbox.</p>
   <hr class="divider">
   <p class="section-heading">Current Freebies</p>
-  <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-    <img src="images/Beachy Boho Coloring Sheet.jpg" alt="Beachy boho coloring sheet — free download with Studio LHB newsletter signup" style="width: 180px; border-radius: 6px; display: block;">
-    <div>
-      <p class="section-heading" style="margin-bottom: 0.4rem;">Beachy Boho Coloring Sheet</p>
-      <p class="drop-text" style="margin-bottom: 0.1rem;">A printable coloring sheet featuring beachy boho designs. Print it, color it, keep it.</p>
-      <a class="btn" href="https://studio-lhb.kit.com/free-coloring-sheet" target="_blank">Get the Free Download</a>
-    </div>
-  </div>
 </main>
+<div class="freebies-grid">
+
+  <!-- FREEBIE CARD — copy this block to add more -->
+  <div class="freebie-card">
+    <div class="freebie-img-wrap">
+      <img src="images/Beachy Boho Coloring Sheet.jpg" alt="Beachy boho coloring sheet — free printable download with Studio LHB newsletter signup" class="freebie-img">
+    </div>
+    <p class="freebie-title">Beachy Boho Coloring Sheet</p>
+    <a class="btn freebie-btn" href="https://studio-lhb.kit.com/free-coloring-sheet" target="_blank">Get the Free Download</a>
+  </div>
+
+  <!-- PLACEHOLDER 2 — replace with real freebie when ready -->
+  <div class="freebie-card">
+    <div class="freebie-img-wrap" style="background:#e8e0d8; display:flex; align-items:center; justify-content:center;">
+      <p style="font-family:'Lato',sans-serif; font-size:12px; color:#8a7a6a; text-align:center; padding:1rem;">Coming Soon</p>
+    </div>
+    <p class="freebie-title">More Freebies Coming Soon</p>
+    <a class="btn freebie-btn" href="https://studio-lhb.kit.com/free-coloring-sheet" target="_blank">Sign Up to Get Notified</a>
+  </div>
+
+  <!-- PLACEHOLDER 3 — replace with real freebie when ready -->
+  <div class="freebie-card">
+    <div class="freebie-img-wrap" style="background:#e8e0d8; display:flex; align-items:center; justify-content:center;">
+      <p style="font-family:'Lato',sans-serif; font-size:12px; color:#8a7a6a; text-align:center; padding:1rem;">Coming Soon</p>
+    </div>
+    <p class="freebie-title">More Freebies Coming Soon</p>
+    <a class="btn freebie-btn" href="https://studio-lhb.kit.com/free-coloring-sheet" target="_blank">Sign Up to Get Notified</a>
+  </div>
+
+</div>
 <footer class="site-footer">
   <p>© 2026 Studio LHB — All Rights Reserved</p>
 </footer>
