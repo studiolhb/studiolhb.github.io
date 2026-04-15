@@ -37,7 +37,7 @@ const designs = [
   },
   {
     name: "Chefcore Kitchen Half Drop Kiwi Fruit Slices",
-    img: "Chefcore Kitchen Half Drop Kiwi Fruit Slices.jpeg",
+    img: "Chefcore Kitchen Half Drop Kiwi Fruits Slices.jpeg",
     alt: "Chefcore Kitchen Half Drop Kiwi Fruit Slices — Two way, half drop pattern on napkins by Studio LHB",
     cats: ["food-kitchen", "summer", "botanical"],
     status: "live",
