@@ -3,8 +3,6 @@
 // Categories: abstract, animal, blender, botanical, coastal, fall, food-kitchen, geometric, holiday, night-sky, origami, rainbow, recreation, spring, summer, vintage-retro, winter, baby-kids
 //
 const designs = [
-  const sorted = [...designs].sort((a, b) => a.name.localeCompare(b.name));
-sorted.forEach(d => {
   {
     name: "Back to School ABC 123 Apples Books Teacher Classroom",
     img: "Back to School ABC 123 Apples Books Teacher Classroom.jpeg",
@@ -821,6 +819,6 @@ sorted.forEach(d => {
     status: "live",
     url: "https://www.spoonflower.com/en/artists/fabric/22008841"
    },
-               });
+      
 ];
 
