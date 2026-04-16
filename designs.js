@@ -820,4 +820,4 @@ const designs = [
     url: "https://www.spoonflower.com/en/artists/fabric/22008841"
   },
 ];
-const sorted = designs.toSorted();
+
