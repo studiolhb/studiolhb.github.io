@@ -86,7 +86,7 @@
   const resultCount = document.getElementById('resultCount');
   let activeFilter = 'all';
 
-  designs.forEach(d => {
+ [...designs].sort((a, b) => a.name.localeCompare(b.name)).forEach(d => {
     const card = document.createElement('div');
     card.className = 'catalog-card';
     card.dataset.cats = d.cats.join(' ');
