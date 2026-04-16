@@ -811,4 +811,12 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/artists/fabric/21778720"
   },
+   {
+    name: "Hothouse Tropical Floral Vibrant Maximalist",
+    img: "Hothouse Tropical Floral Vibrant Maximalist.jpeg",
+    alt: "Hothouse Tropical Floral Vibrant Maximalist — One way pattern on throw blanket by Studio LHB",
+    cats: ["summer", "botanical"],
+    status: "live",
+    url: "https://www.spoonflower.com/en/artists/fabric/22008841"
+  },
 ];
