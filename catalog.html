@@ -87,6 +87,9 @@
   let activeFilter = 'all';
 
   designs.forEach(d => {
+    const sorted = [...designs].sort((a, b) => a.name.localeCompare(b.name));
+sorted.forEach(d => {
+});
     const card = document.createElement('div');
     card.className = 'catalog-card';
     card.dataset.cats = d.cats.join(' ');
