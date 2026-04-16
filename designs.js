@@ -813,7 +813,7 @@ const designs = [
   },
    {
     name: "Hothouse Tropical Floral Vibrant Maximalist",
-    img: "image/Hothouse Tropical Floral Vibrant Maximalist.jpeg",
+    img: "Hothouse Tropical Floral Vibrant Maximalist.jpeg",
     alt: "Hothouse Tropical Floral Vibrant Maximalist — One way pattern on throw blanket by Studio LHB",
     cats: ["summer", "botanical"],
     status: "live",
