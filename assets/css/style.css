@@ -193,7 +193,7 @@ img.tape-badge {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  border-radius: 50%px;
+  border-radius: 8px;
   margin: 0 0 1rem 1.5rem;
 }
 
