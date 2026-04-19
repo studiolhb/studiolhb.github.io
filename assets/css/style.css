@@ -188,7 +188,14 @@ img.tape-badge {
   font-weight: 600;
   text-transform: uppercase;
 }
-
+.profile-photo {
+  float: right;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 0 1rem 1.5rem;
+}
 
 @media (max-width: 600px) {
   .photo-row { grid-template-columns: repeat(3, 1fr); }
