@@ -194,7 +194,7 @@ img.tape-badge {
   height: 250px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0 0 1rem 1.5rem;
+  margin: 1.5rem 0 1rem 1.5rem;
 }
 
 @media (max-width: 600px) {
