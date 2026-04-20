@@ -185,7 +185,7 @@ const designs = [
     alt: "Half Drop Pink Girls Tropical Flamingo Silhouette — One way, half drop pattern on wallpaper by Studio LHB",
     cats: ["animal", "summer", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17836506"
+    url: "https://www.spoonflower.com/en/collections/1481922-half-drop-pink-girls-tropical-flamingo-silhouette-by-studiolhb"
   },
   {
     name: "Half Drop Cupped Floral Blender Quilting Low Volume Coordinate",
@@ -289,7 +289,7 @@ const designs = [
     alt: "Mid Century Modern Folk Art Rustic Botanical Flowers — One way, brick row pattern on wallpaper by Studio LHB",
     cats: ["vintage-retro", "botanical", "abstract"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18086885"
+    url: "https://www.spoonflower.com/en/collections/1479296-mid-century-modern-folk-art-rustic-botanical-flowers-by-studiolhb"
   },
   {
     name: "Monochromatic Coquette Bows and Hearts Blender",
@@ -329,7 +329,7 @@ const designs = [
     alt: "One Way Cute Baby Nursery Whales and Seaweed — One way pattern on wallpaper by Studio LHB",
     cats: ["baby-kids", "animal", "coastal"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18040545"
+    url: "https://www.spoonflower.com/en/collections/1481995-one-way-cute-baby-nursery-whales-seaweed-by-studiolhb"
   },
   {
     name: "One Way Cute Little Kid Ghosts in Vintage Costumes",
@@ -457,7 +457,7 @@ const designs = [
     alt: "Red Cherry Watermelon Apple Strawberry Fruit — One way pattern on tea towel by Studio LHB",
     cats: ["botanical", "food-kitchen", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16411390"
+    url: "https://www.spoonflower.com/en/collections/1480971-red-cherry-watermelon-apple-strawberry-fruit-by-studiolhb"
   },
   {
     name: "Red Orange Yellow Carrot Root Vegetable Garden",
@@ -497,7 +497,7 @@ const designs = [
     alt: "Throwback to the 90s Vintage Retro Paper Folded Notes — One way pattern on throw blanket by Studio LHB",
     cats: ["vintage-retro"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16878228"
+    url: "https://www.spoonflower.com/en/collections/1479114-throwback-90s-vintage-retro-paper-folded-notes-by-studiolhb"
   },
   {
     name: "Tiny Dancer Girl Ballet Pointe Shoes with Hearts",
@@ -569,7 +569,7 @@ const designs = [
     alt: "Tossed Harvest Sliced Bartlett Pears Fruit and Leaves — Toss pattern on tea towel by Studio LHB",
     cats: ["botanical", "food-kitchen", "fall"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18086978"
+    url: "https://www.spoonflower.com/en/collections/1482010-tossed-harvest-sliced-bartlett-pears-fruit-leaves-by-studiolhb"
   },
   {
     name: "Tossed Modern Nautical Beach Seashells Sea Glass Coral",
@@ -633,7 +633,7 @@ const designs = [
     alt: "Two Way Chefcore Brick Pattern Yellow Banana Fruit — Two way pattern on wallpaper by Studio LHB",
     cats: ["food-kitchen", "botanical", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16411710"
+    url: "https://www.spoonflower.com/en/collections/1479094-two-way-chefcore-brick-pattern-yellow-banana-fruit-by-studiolhb"
   },
   {
     name: "Two Way Dramatic Jewel Tulip Flower Bloom",
@@ -673,7 +673,7 @@ const designs = [
     alt: "Two Way Half Brick Rustic Woodland Cabincore Pinecones — Two way pattern on a table runner and napkins by Studio LHB",
     cats: ["botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18601966"
+    url: "https://www.spoonflower.com/en/collections/1479314-two-way-half-brick-rustic-woodland-cabincore-pinecones-by-studiolhb"
   },
   {
     name: "Two Way Half Drop Pastel Ice Cream Cone Summer Treat",
@@ -681,7 +681,7 @@ const designs = [
     alt: "Two Way Half Drop Pastel Ice Cream Cone Summer Treat — Two way pattern on napkins by Studio LHB",
     cats: ["food-kitchen", "summer", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18561324"
+    url: "https://www.spoonflower.com/en/collections/1482030-two-way-half-drop-pastel-ice-cream-cone-summer-treat-by-studiolhb"
   },
   {
     name: "Two Way Half Drop Textured Coffee Bean Chefcore",
@@ -713,7 +713,7 @@ const designs = [
     alt: "Two Way Multicolored Badminton Shuttlecock — Two way pattern on wallpaper by Studio LHB",
     cats: ["recreation"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16803514"
+    url: "https://www.spoonflower.com/en/collections/1479111-two-way-multicolored-badminton-shuttlecock-by-studiolhb"
   },
   {
     name: "Two Way Red White Stripe Candy Cane with Green Bow",
@@ -801,7 +801,7 @@ const designs = [
     alt: "Woodland Fox Forest Animal Baby Nursery Room — One way pattern on standard pillowcase by Studio LHB",
     cats: ["animals", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18008235"
+    url: "https://www.spoonflower.com/en/collections/1481975-woodland-fox-forest-animal-baby-nursery-room-by-studiolhb"
   },
   {
     name: "Half Drop Bright Cheerful Yellow Sunflower",
@@ -809,7 +809,7 @@ const designs = [
     alt: "Half Drop Bright Cheerful Yellow Sunflower — Four way pattern on napkins by Studio LHB",
     cats: ["blender", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/21778720"
+    url: "https://www.spoonflower.com/en/collections/1482046-half-drop-bright-cheerful-yellow-sunflower-by-studiolhb"
   },
    {
     name: "Hothouse Tropical Floral Vibrant Maximalist",
@@ -817,8 +817,15 @@ const designs = [
     alt: "Hothouse Tropical Floral Vibrant Maximalist — One way pattern on throw blanket by Studio LHB",
     cats: ["summer", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/22008841"
+    url: "https://www.spoonflower.com/en/collections/1484161-hothouse-tropical-floral-vibrant-maximalist-by-studiolhb"
    },
-      
+ {
+    name: "Rustic Circus Diamond Dot Stripe Half Drop",
+    img: "New Rustic Circus Diamond Dot Stripe Half Drop.jpeg",
+    alt: "Rustic Circus Diamond Dot Stripe Half Drop — Two way diamond and polka dot stripe pattern on table runner by Studio LHB",
+    cats: ["blender", "geometric"],
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1485611-rustic-circus-diamond-dot-stripe-half-drop-by-studiolhb"
+   },     
 ];
 
