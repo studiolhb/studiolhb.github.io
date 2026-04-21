@@ -99,34 +99,74 @@
     }
     grid.appendChild(card);
   });
+const BATCH = 24;
+let showing = BATCH;
 
-  function updateResults() {
-    const query = searchInput.value.toLowerCase().trim();
-    const cards = document.querySelectorAll('.catalog-card');
-    let visible = 0;
-    cards.forEach(card => {
-      const matchesSearch = !query || card.dataset.name.includes(query);
-      const matchesFilter = activeFilter === 'all' || card.dataset.cats.includes(activeFilter);
-      if (matchesSearch && matchesFilter) { card.classList.remove('hidden'); visible++; }
-      else { card.classList.add('hidden'); }
-    });
-    resultCount.textContent = visible === 1 ? '1 design' : visible + ' designs';
-    let noResults = document.getElementById('noResults');
-    if (visible === 0) {
-      if (!noResults) { noResults = document.createElement('p'); noResults.id = 'noResults'; noResults.className = 'no-results'; noResults.textContent = 'No designs found. Try a different search or filter.'; grid.appendChild(noResults); }
-    } else if (noResults) { noResults.remove(); }
-  }
-
-  searchInput.addEventListener('input', updateResults);
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeFilter = btn.dataset.filter;
-      updateResults();
-    });
+function updateResults() {
+  const query = searchInput.value.toLowerCase().trim();
+  const cards = document.querySelectorAll('.catalog-card');
+  let visible = 0;
+  let shown = 0;
+  cards.forEach(card => {
+    const matchesSearch = !query || card.dataset.name.includes(query);
+    const matchesFilter = activeFilter === 'all' || card.dataset.cats.includes(activeFilter);
+    if (matchesSearch && matchesFilter) {
+      visible++;
+      if (shown < showing) {
+        card.classList.remove('hidden');
+        shown++;
+      } else {
+        card.classList.add('hidden');
+      }
+    } else {
+      card.classList.add('hidden');
+    }
   });
-  updateResults();
+  resultCount.textContent = visible === 1 ? '1 design' : shown + ' of ' + visible + ' designs';
+  let loadMore = document.getElementById('loadMoreBtn');
+  if (shown < visible) {
+    if (!loadMore) {
+      loadMore = document.createElement('button');
+      loadMore.id = 'loadMoreBtn';
+      loadMore.className = 'btn';
+      loadMore.style.cssText = 'display:block; margin: 1rem auto 2rem; padding: 10px 28px;';
+      loadMore.textContent = 'Load More';
+      loadMore.addEventListener('click', () => {
+        showing += BATCH;
+        updateResults();
+      });
+      document.getElementById('catalogGrid').after(loadMore);
+    }
+    loadMore.style.display = 'block';
+  } else if (loadMore) {
+    loadMore.style.display = 'none';
+  }
+  let noResults = document.getElementById('noResults');
+  if (visible === 0) {
+    if (!noResults) {
+      noResults = document.createElement('p');
+      noResults.id = 'noResults';
+      noResults.className = 'no-results';
+      noResults.textContent = 'No designs found. Try a different search or filter.';
+      document.getElementById('catalogGrid').appendChild(noResults);
+    }
+  } else if (noResults) {
+    noResults.remove();
+  }
+}
+
+searchInput.addEventListener('input', () => { showing = BATCH; updateResults(); });
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    showing = BATCH;
+    updateResults();
+  });
+});
+updateResults();
+ 
 </script>
 </body>
 </html>
