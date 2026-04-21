@@ -826,6 +826,14 @@ const designs = [
     cats: ["blender", "geometric"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1485611-rustic-circus-diamond-dot-stripe-half-drop-by-studiolhb"
-   },     
+   },   
+   {
+    name: "Lemon Citrus Fruit Slice Rustic Block Print",
+    img: "Lemon Citrus Fruit Slice Rustic Block Print.jpeg",
+    alt: "Lemon Citrus Fruit Slice Rustic Block Print — Two way lemon slice block print on table runner and napkins by Studio LHB",
+    cats: ["blender", "geometric", "abstract", "botanical", "food-kitchen"],
+    status: "coming soon",
+    url: null
+   },  
 ];
 
