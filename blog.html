@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Studio LHB Blog — honest writing about making art, selling creative work, and navigating the business of being an independent artist.">
+  <title>Blog — Studio LHB</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .blog-controls {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem 0.5rem;
+    }
+    .blog-filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 1.5rem;
+    }
+    .blog-filter-btn {
+      font-family: 'Lato', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #ba6ca5;
+      background: transparent;
+      color: #ba6ca5;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .blog-filter-btn.active, .blog-filter-btn:hover {
+      background: #ba6ca5;
+      color: #fff;
+    }
+    .blog-feed {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 3rem;
+    }
+    .blog-post {
+      border-top: 1px solid #d8cfc5;
+      padding: 2rem 0;
+    }
+    .blog-post:last-child {
+      border-bottom: 1px solid #d8cfc5;
+    }
+    .blog-post.hidden {
+      display: none;
+    }
+    .blog-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .blog-date {
+      font-family: 'Lato', sans-serif;
+      font-size: 11px;
+      color: #8a7a6a;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .blog-tag {
+      font-family: 'Lato', sans-serif;
+      font-size: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: #f0e8e0;
+      color: #8a7a6a;
+      font-weight: 600;
+    }
+    .blog-title {
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f4d5e;
+      margin-bottom: 0.8rem;
+      line-height: 1.3;
+    }
+    .blog-excerpt {
+      font-family: 'Varela Round', sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #3a3530;
+      margin-bottom: 1rem;
+    }
+    .blog-read-more {
+      font-family: 'Lato', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #ba6ca5;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+    }
+    .blog-read-more:hover {
+      color: #0f4d5e;
+    }
+    .blog-full {
+      display: none;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #3a3530;
+      margin-top: 1rem;
+    }
+    .blog-full p {
+      margin-bottom: 1.2rem;
+    }
+    .blog-full.open {
+      display: block;
+    }
+    .blog-collapse {
+      display: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #8a7a6a;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+    .blog-collapse.open {
+      display: inline;
+    }
+    .blog-collapse:hover {
+      color: #0f4d5e;
+    }
+    .no-posts {
+      font-family: 'Lato', sans-serif;
+      color: #8a7a6a;
+      padding: 3rem 0;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .blog-title { font-size: 17px; }
+      .blog-feed { padding: 0 1rem 2rem; }
+      .blog-controls { padding: 1.5rem 1rem 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="site-wrap">
+<header class="site-header">
+  <img src="images/2026 Studio LHB.png" alt="Studio LHB" class="tape-badge">
+  <p class="header-sub">honest writing from the studio</p>
+</header>
+<nav class="btn-section">
+  <div class="btn-row">
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="https://www.spoonflower.com/profiles/studiolhb" target="_blank">Spoonflower</a>
+    <a class="btn" href="https://studiolhb.bigcartel.com/" target="_blank">Big Cartel</a>
+    <a class="btn" href="https://www.ebay.com/usr/studiolhb" target="_blank">ACEOs</a>
+  </div>
+  <div class="btn-row">
+    <a class="btn" href="catalog.html">Catalog</a>
+    <a class="btn" href="freebies.html">Freebies</a>
+    <a class="btn" href="new-releases.html">Weekly Drops</a>
+    <a class="btn" href="https://studio-lhb.kit.com/fresh-patterns" target="_blank">Newsletter</a>
+  </div>
+</nav>
+
+<div class="blog-controls">
+  <div class="blog-filter-row">
+    <button class="blog-filter-btn active" data-filter="all">All</button>
+    <button class="blog-filter-btn" data-filter="selling">Selling</button>
+    <button class="blog-filter-btn" data-filter="platforms">Platforms</button>
+    <button class="blog-filter-btn" data-filter="design">Design</button>
+    <button class="blog-filter-btn" data-filter="mindset">Mindset</button>
+    <button class="blog-filter-btn" data-filter="business">Business</button>
+  </div>
+</div>
+
+<div class="blog-feed" id="blogFeed">
+
+  <!-- POST 1 -->
+  <article class="blog-post" data-tags="selling platforms mindset">
+    <div class="blog-meta">
+      <span class="blog-date">April 20, 2026</span>
+      <span class="blog-tag">Selling</span>
+      <span class="blog-tag">Platforms</span>
+      <span class="blog-tag">Mindset</span>
+    </div>
+    <h2 class="blog-title">I Did Everything Right and It Still Didn't Work</h2>
+    <p class="blog-excerpt">Nobody tells you that you can follow every piece of advice, do everything they say, build the thing they told you to build — and still hit a wall. Not because you did it wrong. Because the system isn't designed for you to win.</p>
+    <button class="blog-read-more" onclick="togglePost(this)">Read More ↓</button>
+    <div class="blog-full">
+      <p>I have a website. I have a catalog of over 100 designs. I have an email list setup, a Pinterest account, an Instagram account, an eBay shop, a Ko-fi page. I've done the SEO. I've uploaded consistently. I've made the blenders and the coordinates and the trending designs. I've researched the platforms, watched the videos, read the posts from people who swear they cracked the code.</p>
+      <p>And I'm still here, watching my posts get 100 views, my designs disappear from search results, and my ACEOs sit with one view for seven days.</p>
+      <p>Here's what I've learned that nobody in the creative business space will say out loud: the platforms are not neutral. They are businesses. They promote what already performs. They reward the sellers who already have sales history, the creators who already have followers, the designs that already have favorites. If you're starting from zero, you are not competing on a level playing field. You are competing against people who got there first and a machine that has decided to keep showing them.</p>
+      <p>That's not a mindset problem. That's not a strategy problem. That's just the truth of how these systems work in 2026.</p>
+      <p>I'm not saying this to be a downer. I'm saying it because I spent months believing I was doing something wrong, tweaking my titles and my tags and my hooks and my posting schedule, when the actual problem was that the algorithm had already decided I wasn't worth showing. And no amount of "better content" was going to override that decision.</p>
+      <p>What I'm doing instead — building things that don't require a platform to choose to show me. A blog that Google indexes. A KDP book that lives on Amazon search permanently. eBay listings that build seller history one sale at a time. A website that exists whether Instagram decides to boost me or not.</p>
+      <p>It's slower. It's less satisfying than going viral. But it's mine. And at this point, ownership is the only thing that feels like real progress.</p>
+      <p>I'm still here. Still making things. Still figuring it out.</p>
+    </div>
+    <button class="blog-collapse" onclick="togglePost(this)">Collapse ↑</button>
+  </article>
+
+  <!-- ADD NEW POSTS ABOVE THIS LINE -->
+  <!-- Copy the article block above, update the date, tags, title, excerpt, and full text -->
+
+</div>
+
+<footer class="site-footer">
+  <p>© 2026 Studio LHB — All Rights Reserved</p>
+</footer>
+</div>
+
+<script>
+  function togglePost(btn) {
+    const article = btn.closest('article');
+    const full = article.querySelector('.blog-full');
+    const readMore = article.querySelector('.blog-read-more');
+    const collapse = article.querySelector('.blog-collapse');
+    const isOpen = full.classList.contains('open');
+    if (isOpen) {
+      full.classList.remove('open');
+      collapse.classList.remove('open');
+      readMore.style.display = 'inline';
+      readMore.textContent = 'Read More ↓';
+    } else {
+      full.classList.add('open');
+      collapse.classList.add('open');
+      readMore.style.display = 'none';
+    }
+  }
+
+  const filterBtns = document.querySelectorAll('.blog-filter-btn');
+  const posts = document.querySelectorAll('.blog-post');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      posts.forEach(post => {
+        const tags = post.dataset.tags || '';
+        if (filter === 'all' || tags.includes(filter)) {
+          post.classList.remove('hidden');
+        } else {
+          post.classList.add('hidden');
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
