@@ -190,8 +190,8 @@ img.tape-badge {
 }
 .profile-photo {
   float: right;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 180px;
   object-fit: cover;
   border-radius: 8px;
   margin: 1.5rem 0 1rem 1.5rem;
