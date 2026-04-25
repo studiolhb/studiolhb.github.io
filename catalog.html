@@ -91,7 +91,7 @@
     card.dataset.cats = d.cats.join(' ');
     card.dataset.name = d.name.toLowerCase();
     if (d.status === 'coming soon') {
-      card.innerHTML = `<div class="card-img-wrap coming-soon-wrap"><img src="images/${d.img}" alt="${d.alt}" class="card-img" loading="lazy"><div class="coming-soon-badge">Coming Soon</div></div><p class="card-title">${d.name}</p><a class="btn card-btn" href="${d.url}" target="_blank">Shop Colorways & Scales</a>';
+      card.innerHTML = `<div class="card-img-wrap coming-soon-wrap"><img src="images/${d.img}" alt="${d.alt}" class="card-img" loading="lazy"><div class="coming-soon-badge">Coming Soon</div></div><p class="card-title">${d.name}</p><a class="btn card-btn" href="${d.url}" target="_blank">Shop Colorways & Scales</a>`;
     } else {
       card.innerHTML = `<div class="card-img-wrap"><img src="images/${d.img}" alt="${d.alt}" class="card-img" loading="lazy"></div><p class="card-title">${d.name}</p><a class="btn card-btn" href="${d.url}" target="_blank">Shop Colorways & Scales</a>`;
     }
