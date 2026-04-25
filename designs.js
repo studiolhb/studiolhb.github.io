@@ -835,5 +835,37 @@ const designs = [
     status: "coming soon",
     url: null
    },  
+   {
+    name: "Tonal Textured Square Quilt Blocks",
+    img: "Tonal Textured Square Quilt Blocks.jpeg",
+    alt: "Tonal Textured Square Quilt Blocks — Non directional patchwork geometric square print on table runner and napkins by Studio LHB",
+    cats: ["blender", "geometric", "abstract"],
+    status: "coming soon",
+    url: null
+   }, 
+  {
+    name: "Earthy Textural Boho Geometric Sun Blender",
+    img: "Earthy Textural Boho Geometric Sun Blender.jpeg",
+    alt: "Earthy Textural Boho Geometric Sun Blender — One way geometric boho sun blender on toss pillow by Studio LHB",
+    cats: ["blender", "geometric", "abstract"],
+    status: "coming soon",
+    url: null
+   }, 
+   {
+    name: "Abstract Blue Textured Floral Lattice Trellis Blender",
+    img: "Abstract Blue Textured Floral Lattice Trellis Blender.jpeg",
+    alt: "Abstract Blue Textured Floral Lattice Trellis Blender — Two way geometric abstract botanical floral lattice hexagon blender on toss pillow by Studio LHB",
+    cats: ["blender", "geometric", "abstract", "botanical"],
+    status: "coming soon",
+    url: null
+   }, 
+   {
+    name: "Textured Delicate Botanical Ginkgo Leaf Blender",
+    img: "Textured Delicate Botanical Ginkgo Leaf Blender.jpeg",
+    alt: "Textured Delicate Botanical Ginkgo Leaf Blender — Toss botanical green monochrome ginkgo leaf blender on table runner and napkins by Studio LHB",
+    cats: ["blender", "botanical"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
