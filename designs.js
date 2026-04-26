@@ -875,5 +875,13 @@ const designs = [
     status: "coming soon",
     url: null
    }, 
+  {
+    name: "Bubble Polka Dots Geometric Blender Toss",
+    img: "Bubble Polka Dots Geometric Blender Toss.jpeg",
+    alt: "Bubble Polka Dots Geometric Blender Toss — Bubble toss on wallpaper by Studio LHB",
+    cats: ["blender", "geometric"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
