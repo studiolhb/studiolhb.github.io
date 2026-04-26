@@ -867,5 +867,13 @@ const designs = [
     status: "coming soon",
     url: null
    }, 
+    {
+    name: "Nautical Coastal Vertical Ticking Stripe",
+    img: "Nautical Coastal Vertical Ticking Stripe.jpeg",
+    alt: "Nautical Coastal Vertical Ticking Stripe — Vertical stripe on wallpaper by Studio LHB",
+    cats: ["blender", "geometric"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
