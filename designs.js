@@ -257,7 +257,7 @@ const designs = [
     alt: "Illustrated Two Way Homemade Artisan Bread Loaf — Two way pattern on napkins by Studio LHB",
     cats: ["food-kitchen"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16253471"
+    url: "https://www.spoonflower.com/en/collections/1480201-illustrated-two-way-homemade-artisan-bread-loaf-by-studiolhb"
   },
   {
     name: "Japanese Origami Geometric Party Dogs and Cats in Birthday Hats",
@@ -625,7 +625,7 @@ const designs = [
     alt: "Two Way Blue Gradient Arrows Chevron Geometric Stripe — Two way pattern on curtains by Studio LHB",
     cats: ["geometric"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17287008"
+    url: "https://www.spoonflower.com/en/collections/1479118-two-way-blue-gradient-arrows-chevron-geometic-stripe-by-studiolhb"
   },
   {
     name: "Two Way Chefcore Brick Pattern Yellow Banana Fruit",
@@ -832,64 +832,64 @@ const designs = [
     img: "Lemon Citrus Fruit Slice Rustic Block Print.jpeg",
     alt: "Lemon Citrus Fruit Slice Rustic Block Print — Two way lemon slice block print on table runner and napkins by Studio LHB",
     cats: ["blender", "geometric", "abstract", "botanical", "food-kitchen"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487134-lemon-citrus-fruit-slice-rustic-block-print-by-studiolhb"
    },  
    {
     name: "Tonal Textured Square Quilt Blocks",
     img: "Tonal Textured Square Quilt Blocks.jpeg",
     alt: "Tonal Textured Square Quilt Blocks — Non directional patchwork geometric square print on table runner and napkins by Studio LHB",
     cats: ["blender", "geometric", "abstract"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487706-tonal-textured-square-quilt-blocks-blender-low-volume-by-studiolhb"
    }, 
   {
     name: "Earthy Textural Boho Geometric Sun Blender",
     img: "Earthy Textural Boho Geometric Sun Blender.jpeg",
     alt: "Earthy Textural Boho Geometric Sun Blender — One way geometric boho sun blender on toss pillow by Studio LHB",
     cats: ["blender", "geometric", "abstract"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487743-earthy-textural-boho-geometric-sun-blender-by-studiolhb"
    }, 
    {
     name: "Abstract Blue Textured Floral Lattice Trellis Blender",
     img: "Abstract Blue Textured Floral Lattice Trellis Blender.jpeg",
     alt: "Abstract Blue Textured Floral Lattice Trellis Blender — Two way geometric abstract botanical floral lattice hexagon blender on toss pillow by Studio LHB",
     cats: ["blender", "geometric", "abstract", "botanical"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487755-abstract-blue-textured-floral-lattice-trellis-blender-by-studiolhb"
    }, 
    {
     name: "Textured Delicate Botanical Ginkgo Leaf Blender",
     img: "Textured Delicate Botanical Ginkgo Leaf Blender.jpeg",
     alt: "Textured Delicate Botanical Ginkgo Leaf Blender — Toss botanical green monochrome ginkgo leaf blender on table runner and napkins by Studio LHB",
     cats: ["blender", "botanical"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487754-textured-delicate-botanical-ginkgo-leaf-blender-by-studiolhb"
    }, 
     {
     name: "Nautical Coastal Vertical Ticking Stripe",
     img: "Nautical Coastal Vertical Ticking Stripe.jpeg",
     alt: "Nautical Coastal Vertical Ticking Stripe — Vertical stripe on wallpaper by Studio LHB",
     cats: ["blender", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1487873-nautical-coastal-vertical-ticking-stripe-by-studiolhb"
    }, 
   {
     name: "Bubble Polka Dots Geometric Blender Toss",
     img: "Bubble Polka Dots Geometric Blender Toss.jpeg",
     alt: "Bubble Polka Dots Geometric Blender Toss — Bubble toss on wallpaper by Studio LHB",
     cats: ["blender", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1488202-bubble-polka-dots-geometric-blender-toss-by-studiolhb"
    }, 
   {
     name: "Rustic Abstract Wood Grain Botanical Blender",
     img: "Rustic Abstract Wood Grain Botanical Blender.jpeg",
     alt: "Rustic Abstract Wood Grain Botanical Blender — Two way abstract wood grain on toss pillow by Studio LHB",
     cats: ["blender", "abstract", "botanical"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1488309-rustic-abstract-wood-grain-botanical-blender-by-studiolhb"
    }, 
 ];
 
