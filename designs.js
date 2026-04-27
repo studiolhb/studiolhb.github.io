@@ -883,6 +883,13 @@ const designs = [
     status: "coming soon",
     url: null
    }, 
-
+  {
+    name: "Rustic Abstract Wood Grain Botanical Blender",
+    img: "Rustic Abstract Wood Grain Botanical Blender.jpeg",
+    alt: "Rustic Abstract Wood Grain Botanical Blender — Two way abstract wood grain on toss pillow by Studio LHB",
+    cats: ["blender", "abstract," "botanical"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
