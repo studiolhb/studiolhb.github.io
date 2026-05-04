@@ -891,5 +891,53 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1488309-rustic-abstract-wood-grain-botanical-blender-by-studiolhb"
    }, 
+    {
+    name: "Ikat Geometric Layered Textured Diamond Half Drop",
+    img: "Ikat Geometric Layered Textured Diamond Half Drop.jpeg",
+    alt: "Ikat Geometric Layered Textured Diamond Half Drop — Two way abstract pattern on placemat by Studio LHB",
+    cats: ["blender", "abstract", "geometric"],
+    status: "coming soon",
+    url: null
+   }, 
+   {
+    name: "Soft Vintage Geometric Star Floral Lace Doily",
+    img: "Soft Vintage Geometric Star Floral Lace Doily.jpeg",
+    alt: "Soft Vintage Geometric Star Floral Lace Doily — Two way abstract pattern on wallpaper by Studio LHB",
+    cats: ["blender", "abstract", "geometric"],
+    status: "coming soon",
+    url: null
+   }, 
+  {
+    name: "Pine Evergreen Winter Botanical Tree Blender",
+    img: "Pine Evergreen Winter Botanical Tree Blender.jpeg",
+    alt: "Pine Evergreen Winter Botanical Tree Blender — Toss pattern on sheet set by Studio LHB",
+    cats: ["blender", "holiday", "botanical"],
+    status: "coming soon",
+    url: null
+   }, 
+ {
+    name: "Blue Angular Geometric Jacquard Tile Shapes",
+    img: "Blue Angular Geometric Jacquard Tile Shapes.jpeg",
+    alt: "Blue Angular Geometric Jacquard Tile Shapes — Two way abstract pattern on wallpaper by Studio LHB",
+    cats: ["blender", "abstract", "geometric"],
+    status: "coming soon",
+    url: null
+   }, 
+{
+    name: "Heritage Plaid Geometric Holiday Diamond Blender",
+    img: "Heritage Plaid Geometric Holiday Diamond Blender.jpeg",
+    alt: "Heritage Plaid Geometric Holiday Diamond Blender — Two way abstract pattern on throw pillow by Studio LHB",
+    cats: ["blender", "abstract", "geometric", "holiday"],
+    status: "coming soon",
+    url: null
+   }, 
+  {
+    name: "Playful Jungle Botanical Tropical Leaves",
+    img: "Playful Jungle Botanical Tropical Leaves.jpeg",
+    alt: "Playful Jungle Botanical Tropical Leaves — Two way pattern on throw pillow by Studio LHB",
+    cats: ["blender", "baby-kids"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
