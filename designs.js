@@ -593,7 +593,7 @@ const designs = [
     alt: "Tossed Southwest Desert Cactus and Pink Flowers — Toss pattern on a standard pillowcase by Studio LHB",
     cats: ["botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18014590"
+    url: "https://www.spoonflower.com/en/collections/1479283-tossed-southwest-desert-cactus-pink-flowers-by-studiolhb"
   },
   {
     name: "Christmas Bell Mitten Star Holiday Cookies",
@@ -896,48 +896,48 @@ const designs = [
     img: "Ikat Geometric Layered Textured Diamond Half Drop.jpeg",
     alt: "Ikat Geometric Layered Textured Diamond Half Drop — Two way abstract pattern on placemat by Studio LHB",
     cats: ["blender", "abstract", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490713-ikat-geometric-layered-textured-diamond-half-drop-by-studiolhb"
    }, 
    {
     name: "Soft Vintage Geometric Star Floral Lace Doily",
     img: "Soft Vintage Geometric Star Floral Lace Doily.jpeg",
     alt: "Soft Vintage Geometric Star Floral Lace Doily — Two way abstract pattern on wallpaper by Studio LHB",
     cats: ["blender", "abstract", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490714-soft-vintage-geometric-star-floral-lace-doily-by-studiolhb"
    }, 
   {
     name: "Pine Evergreen Winter Botanical Tree Blender",
     img: "Pine Evergreen Winter Botanical Tree Blender.jpeg",
     alt: "Pine Evergreen Winter Botanical Tree Blender — Toss pattern on sheet set by Studio LHB",
     cats: ["blender", "holiday", "botanical"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490718-pine-evergreen-winter-botanical-tree-blender-by-studiolhb"
    }, 
  {
     name: "Blue Angular Geometric Jacquard Tile Shapes",
     img: "Blue Angular Geometric Jacquard Tile Shapes.jpeg",
     alt: "Blue Angular Geometric Jacquard Tile Shapes — Two way abstract pattern on wallpaper by Studio LHB",
     cats: ["blender", "abstract", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490719-blue-angular-geometric-jacquard-tile-shapes-by-studiolhb"
    }, 
 {
     name: "Heritage Plaid Geometric Holiday Diamond Blender",
     img: "Heritage Plaid Geometric Holiday Diamond Blender.jpeg",
     alt: "Heritage Plaid Geometric Holiday Diamond Blender — Two way abstract pattern on throw pillow by Studio LHB",
     cats: ["blender", "abstract", "geometric", "holiday"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490720-heritage-plaid-geometric-holiday-diamond-blender-by-studiolhb"
    }, 
   {
     name: "Playful Jungle Botanical Tropical Leaves",
     img: "Playful Jungle Botanical Tropical Leaves.jpeg",
     alt: "Playful Jungle Botanical Tropical Leaves — Two way pattern on throw pillow by Studio LHB",
     cats: ["blender", "baby-kids"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1490721-playful-jungle-botanical-tropical-leaves-by-studiolhb"
    }, 
 ];
 
