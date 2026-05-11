@@ -144,8 +144,8 @@ const designs = [
     img: "Half Drop Diamond Star Cross Geometric Blender.jpeg",
     alt: "Half Drop Diamond Star Cross Geometric Blender — Four way pattern on a throw pillow by Studio LHB",
     cats: ["blender", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1479440-half-drop-diamond-star-cross-geometric-blender-by-studiolhb"
   },
   {
     name: "Half Drop Geometric Dots Tonal Blender Quilting Coordinate",
@@ -943,7 +943,7 @@ const designs = [
     name: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun",
     img: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun.jpeg",
     alt: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun — One way pattern on wallpaper by Studio LHB",
-    cats: ["coastal", "abstract", "botanical"],
+    cats: ["coastal", "abstract", "botanical","vintage-retro"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1493399-retro-faded-resort-tropical-leaves-beach-waves-boho-sun-by-studiolhb"
    }, 
