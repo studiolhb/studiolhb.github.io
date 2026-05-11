@@ -224,16 +224,16 @@ const designs = [
     img: "Harlequin Diamond Grid Lattice Bow Tie Blender.jpeg",
     alt: "Harlequin Diamond Grid Lattice Bow Tie Blender — Two way pattern on napkins by Studio LHB",
     cats: ["blender", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1479447-harlequin-diamond-grid-lattice-bow-tie-blender-by-studiolhb"
   },
   {
     name: "Harlequin Diamond Grid Lattice Geometric Blender",
     img: "Harlequin Diamond Grid Lattice Geometric Blender.jpeg",
     alt: "Harlequin Diamond Grid Lattice Geometric Blender — Four way pattern on a throw pillow by Studio LHB",
     cats: ["blender", "geometric"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1479442-harlequin-diamond-grid-lattice-geometric-blender-by-studiolhb"
   },
   {
     name: "Harlequin Diamond Grid Lattice Ribbon Bow Blender",
@@ -313,7 +313,7 @@ const designs = [
     alt: "Nursery Woodland Japanese Origami Baby Foxes — One way pattern on throw blanket by Studio LHB",
     cats: ["baby-kids", "animal", "origami"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16297446"
+    url: "https://www.spoonflower.com/en/collections/1479070-nursery-woodland-japanese-origami-baby-foxes-by-studiolhb"
   },
   {
     name: "Happy Birthday Candles",
@@ -360,8 +360,8 @@ const designs = [
     img: "One Way Half Drop Textured Coffee Bean Chefcore.jpeg",
     alt: "One Way Half Drop Textured Coffee Bean Chefcore — One way pattern on napkins by Studio LHB",
     cats: ["food-kitchen"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1479417-one-way-half-drop-textured-coffee-bean-chefcore-by-studiolhb"
   },
   {
     name: "One Way Multicolor Festive Christmas Ornaments Baubles",
@@ -938,6 +938,14 @@ const designs = [
     cats: ["blender", "baby-kids"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1490721-playful-jungle-botanical-tropical-leaves-by-studiolhb"
+   },
+  {
+    name: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun",
+    img: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun.jpeg",
+    alt: "Retro Faded Resort Tropical Leaves Beach Waves Boho Sun — One way pattern on wallpaper by Studio LHB",
+    cats: ["coastal", "abstract", "botanical"],
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1493399-retro-faded-resort-tropical-leaves-beach-waves-boho-sun-by-studiolhb"
    }, 
 ];
 
