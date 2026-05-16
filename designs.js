@@ -947,5 +947,13 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1493399-retro-faded-resort-tropical-leaves-beach-waves-boho-sun-by-studiolhb"
    }, 
+  {
+    name: "Chintz Revival Floral Botanical Harlequin Lattice Grid",
+    img: "Chintz Revival Floral Botanical Harlequin Lattice Grid.jpeg",
+    alt: "Chintz Revival Floral Botanical Harlequin Lattice Grid — One way pattern on wallpaper by Studio LHB",
+    cats: ["geometric", "abstract", "botanical","vintage-retro"],
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
