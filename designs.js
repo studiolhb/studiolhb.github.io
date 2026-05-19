@@ -129,7 +129,7 @@ const designs = [
     alt: "Half Drop Abstract Watercolor Tree of Life — Two way, half drop pattern on throw pillow by Studio LHB",
     cats: ["abstract", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17328670"
+    url: "https://www.spoonflower.com/en/collections/1479119-half-drop-abstract-watercolor-tree-life-by-studiolhb"
   },
   {
     name: "Half Drop Botanical Three Green Leaf Clusters",
@@ -193,7 +193,7 @@ const designs = [
     alt: "Half Drop Cupped Floral Blender Quilting Low Volume Coordinate — One way, half drop pattern on throw pillow by Studio LHB",
     cats: ["botanical", "blender", "spring", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/21755027"
+    url: "https://www.spoonflower.com/en/collections/1482036-half-drop-cupped-floral-blender-quilting-low-volume-coordinate-by-studiolhb"
   },
   {
     name: "Half Drop Textured Lily Botanical Blender Low Volume",
@@ -201,7 +201,7 @@ const designs = [
     alt: "Half Drop Textured Lily Botanical Blender Low Volume — One way, half drop pattern on throw pillow by Studio LHB",
     cats: ["botanical", "blender", "spring", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/21779068"
+    url: "https://www.spoonflower.com/en/collections/1482048-half-drop-textured-lily-botanical-blender-low-volume-by-studiolhb"
   },
   {
     name: "Half Drop Tonal Geranium Botanical Blender Low Volume",
@@ -209,7 +209,7 @@ const designs = [
     alt: "Half Drop Tonal Geranium Botanical Blender Low Volume — One way, half drop pattern on throw pillow by Studio LHB",
     cats: ["botanical", "blender", "spring", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/21779210"
+    url: "https://www.spoonflower.com/en/collections/1482049-half-drop-tonal-geranium-botanical-blender-low-volume-by-studiolhb"
   },
   {
     name: "Half Drop Vintage Victorian Gold Key with Tiny Heart",
@@ -273,7 +273,7 @@ const designs = [
     alt: "Japanese Swimming Koi Fish and Beaded Stripe Lines — Two way pattern on wallpaper by Studio LHB",
     cats: ["botanical", "animal"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16475879"
+    url: "https://www.spoonflower.com/en/collections/1481157-japanese-swimming-koi-fish-beaded-stripe-lines-by-studiolhb"
   },
   {
     name: "Japanese Origami Paper Cranes",
@@ -345,7 +345,7 @@ const designs = [
     alt: "One Way Half Drop Berry Crocus Botanical Flower — One way pattern on table runner by Studio LHB",
     cats: ["winter", "spring", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/19211808"
+    url: "https://www.spoonflower.com/en/collections/1479320-one-way-half-drop-berry-crocus-botanical-flower-by-studiolhb"
   },
   {
     name: "One Way Half Drop Monochrome Blender Hearts",
@@ -425,7 +425,7 @@ const designs = [
     alt: "Paper Fans with Hearts and Beaded Stripes — One way pattern on throw pillow by Studio LHB",
     cats: ["origami", "spring"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16460457"
+    url: "https://www.spoonflower.com/en/collections/1481114-paper-fans-hearts-beaded-stripes-by-studiolhb"
   },
   {
     name: "Playful Whimsical Diagonal Striped Puffy Clouds",
@@ -521,7 +521,7 @@ const designs = [
     alt: "Tonal Lily Floral Half Drop Mini Blender — One way pattern on throw pillow by Studio LHB",
     cats: ["botanical", "blender", "spring", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/21770936"
+    url: "https://www.spoonflower.com/en/collections/1482042-tonal-lily-floral-half-drop-mini-blender-by-studiolhb"
   },
   {
     name: "Toss Overlapping Rainbow Lucky Japanese Origami Stars",
@@ -585,7 +585,7 @@ const designs = [
     alt: "Tossed Multicolored Badminton Racket Shuttlecock Birdie — Toss pattern on standard pillowcase by Studio LHB",
     cats: ["recreation"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16804931"
+    url: "https://www.spoonflower.com/en/collections/1481461-tossed-multicolored-badminton-racket-shuttlecock-birdie-by-studiolhb"
   },
   {
     name: "Tossed Southwest Desert Cactus and Pink Flowers",
@@ -705,7 +705,7 @@ const designs = [
     alt: "Two Way Multicolored Badminton Recreation Sport Racket — Two way pattern on tea towel by Studio LHB",
     cats: ["recreation"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16803453"
+    url: "https://www.spoonflower.com/en/collections/1479109-two-way-multicolored-badminton-recreation-sport-racket-by-studiolhb"
   },
   {
     name: "Two Way Multicolored Badminton Shuttlecock",
@@ -952,8 +952,8 @@ const designs = [
     img: "Chintz Revival Floral Botanical Harlequin Lattice Grid.jpeg",
     alt: "Chintz Revival Floral Botanical Harlequin Lattice Grid — One way pattern on wallpaper by Studio LHB",
     cats: ["geometric", "abstract", "botanical","vintage-retro"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1494612-chintz-revival-floral-botanical-harlequin-lattice-grid-by-studiolhb"
    }, 
 ];
 
