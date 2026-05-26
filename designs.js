@@ -17,7 +17,7 @@ const designs = [
     alt: "Brick Row Blue Abstract Watercolor Tree of Life — One way, half drop pattern on wallpaper by Studio LHB",
     cats: ["abstract", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17328318"
+    url: "https://www.spoonflower.com/en/collections/1479915-brick-row-abstract-watercolor-tree-life-by-studiolhb"
   },
   {
     name: "Brick Row Watercolor Scalloped Fan Shaped Seashells",
@@ -25,7 +25,7 @@ const designs = [
     alt: "Brick Row Watercolor Scalloped Fan Shaped Seashells — One way, brick row pattern on a tea towel by Studio LHB",
     cats: ["coastal", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16385186"
+    url: "https://www.spoonflower.com/en/collections/1480680-brick-row-watercolor-scallop-fan-shaped-seashells-by-studiolhb"
   },
   {
     name: "Celebrate with Champagne Bottles Bubbles and Glass Flutes",
@@ -49,7 +49,7 @@ const designs = [
     alt: "Chefcore Kitchen Two Way Summer Watermelon Slices — Two way, half drop pattern on napkins by Studio LHB",
     cats: ["food-kitchen", "summer", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16474256"
+    url: "https://www.spoonflower.com/en/collections/1481137-chefcore-kitchen-two-way-summer-watermelon-slices-by-studiolhb"
   },
   {
     name: "Colorful Tossed Japanese Origami Paper Butterflies",
@@ -57,7 +57,7 @@ const designs = [
     alt: "Colorful Tossed Japanese Origami Paper Butterflies — Toss pattern on wallpaper by Studio LHB",
     cats: ["origami", "animals", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16282423"
+    url: "https://www.spoonflower.com/en/collections/1479065-colorful-tossed-japanese-origami-paper-butterflies-by-studiolhb"
   },
   {
     name: "Colorful Tossed Rainbow Japanese Origami Paper Hearts",
@@ -65,7 +65,7 @@ const designs = [
     alt: "Colorful Tossed Rainbow Japanese Origami Paper Hearts — Toss pattern on a standard pillowcase by Studio LHB",
     cats: ["origami", "rainbow", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16281324"
+    url: "https://www.spoonflower.com/en/collections/1479061-colorful-tossed-rainbow-japanese-origami-paper-hearts-by-studiolhb"
   },
   {
     name: "Cute Halloween Skull Trio with Hair Bows and Bowties",
@@ -97,7 +97,7 @@ const designs = [
     alt: "Festive Colorful Multicolor Rainbow Polka Dots Half Drop — One way, half drop pattern on throw blanket by Studio LHB",
     cats: ["geometric", "baby-kids", "rainbow"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16253288"
+    url: "https://www.spoonflower.com/en/collections/1480126-festive-colorful-multicolor-rainbow-polka-dots-half-drop-by-studiolhb"
   },
   {
     name: "Fresh Citrus Oranges Fruit Diamond Geometric",
@@ -249,7 +249,7 @@ const designs = [
     alt: "Hot Pink Striped Valentines Day Heart Chocolate — Two way pattern on a table runner by Studio LHB",
     cats: ["food-kitchen", "holiday"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16256969"
+    url: "https://www.spoonflower.com/en/collections/1479046-hot-pink-striped-valentines-day-heart-chocolate-by-studiolhb"
   },
   {
     name: "Illustrated Two Way Homemade Artisan Bread Loaf",
@@ -433,7 +433,7 @@ const designs = [
     alt: "Playful Whimsical Diagonal Striped Puffy Clouds — One way pattern on throw pillow by Studio LHB",
     cats: ["night-sky", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16361698"
+    url: "https://www.spoonflower.com/en/collections/1479091-playful-whimsical-diagonal-striped-puffy-clouds-by-studiolhb"
   },
   {
     name: "Watercolor Paw Print Toss",
@@ -481,7 +481,7 @@ const designs = [
     alt: "Round Valentines Day Truffles with Sprinkles — Two way pattern on a table runner and napkins by Studio LHB",
     cats: ["food-kitchen", "holiday"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16257222"
+    url: "https://www.spoonflower.com/en/collections/1479047-round-valentines-day-truffles-sprinkles-by-studiolhb"
   },
   {
     name: "Watercolor Easter Bunnies Silhouettes and Spring Cottagecore",
@@ -529,7 +529,7 @@ const designs = [
     alt: "Toss Overlapping Rainbow Lucky Japanese Origami Stars — Toss pattern on a standard pillowcase by Studio LHB",
     cats: ["origami", "night-sky", "rainbow"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16298150"
+    url: "https://www.spoonflower.com/en/collections/1479072-toss-overlapping-rainbow-lucky-japanese-origami-stars-by-studiolhb"
   },
   {
     name: "Toss Retro Pinball Wizard Arcade Gaming Entertainment Version 2",
@@ -553,7 +553,7 @@ const designs = [
     alt: "Tossed Cabincore Cozy Woodland Forest Outdoor Botanical — Toss pattern on wallpaper by Studio LHB",
     cats: ["botanical", "food-kitchen"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18167991"
+    url: "https://www.spoonflower.com/en/collections/1479301-tossed-cabincore-cozy-woodland-forest-outdoor-botanical-by-studiolhb"
   },
   {
     name: "Tossed Fall Harvest Pumpkins Gourds and Leaves",
@@ -609,7 +609,7 @@ const designs = [
     alt: "Triangle Clustered Scalloped Fan Shaped Seashells — One way pattern on throw pillow by Studio LHB",
     cats: ["coastal", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16385390"
+    url: "https://www.spoonflower.com/en/collections/1480697-triangle-clustered-scalloped-fan-shaped-seashells-by-studiolhb"
   },
   {
     name: "Two Directional Compact Bartlett Pear Fruit Rows",
@@ -617,7 +617,7 @@ const designs = [
     alt: "Two Directional Compact Bartlett Pear Fruit Rows — Two way pattern on a placemat by Studio LHB",
     cats: ["botanical", "food-kitchen"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16253461"
+    url: "https://www.spoonflower.com/en/collections/1480199-two-direction-compact-bartlett-pear-fruit-rows-by-studiolhb"
   },
   {
     name: "Two Way Blue Gradient Arrows Chevron Geometric Stripe",
@@ -657,7 +657,7 @@ const designs = [
     alt: "Geometric Blueberries Fruit — Two way pattern on a table runner and napkins by Studio LHB",
     cats: ["botanical", "food-kitchen", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16426307"
+    url: "https://www.spoonflower.com/en/collections/1481050-geometric-blueberries-fruit-by-studiolhb"
   },
   {
     name: "Two Way Green Bartlett Pear Kiwi Avocado Fruit",
@@ -665,7 +665,7 @@ const designs = [
     alt: "Two Way Green Bartlett Pear Kiwi Avocado Fruit — Two way pattern on a placemat by Studio LHB",
     cats: ["botanical", "food-kitchen", "fall", "summer"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16411270"
+    url: "https://www.spoonflower.com/en/collections/1480939-two-way-green-bartlett-pear-kiwi-avocado-fruit-by-studiolhb"
   },
   {
     name: "Two Way Half Brick Rustic Woodland Cabincore Pinecones",
@@ -737,7 +737,7 @@ const designs = [
     alt: "Two Way Whimsical Botanical Carrot Root Vegetable Garden — Two way pattern on napkins by Studio LHB",
     cats: ["food-kitchen", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16253387"
+    url: "https://www.spoonflower.com/en/collections/1480159-two-way-whimsical-botanical-carrot-root-vegetable-garden-by-studiolhb"
   },
   {
     name: "Vintage Retro Cherry Strawberry Glass Jam Jars",
@@ -761,7 +761,7 @@ const designs = [
     alt: "Watercolor Geometric Origami Paper Cups — Two way pattern on curtains by Studio LHB",
     cats: ["geometric", "origami", "abstract"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16317195"
+    url: "https://www.spoonflower.com/en/collections/1479073-watercolor-geometric-origami-paper-cups-by-studiolhb"
   },
   {
     name: "Watercolor Paw Print Toss Blender with Hearts",
