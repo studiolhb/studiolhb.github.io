@@ -9,7 +9,7 @@ const designs = [
     alt: "Back to School ABC 123 Apples Books Teacher Classroom — One way, grid pattern on a table runner by Studio LHB",
     cats: ["baby-kids", "fall"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17704171"
+    url: "https://www.spoonflower.com/en/collections/1481682-back-school-abc-123-apples-books-teacher-classroom-by-studiolhb"
   },
   {
     name: "Brick Row Blue Abstract Watercolor Tree of Life",
@@ -33,7 +33,7 @@ const designs = [
     alt: "Celebrate with Champagne Bottles Bubbles and Glass Flutes — Two way pattern on a placemat by Studio LHB",
     cats: ["holiday"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16263125"
+    url: "https://www.spoonflower.com/en/collections/1480240-celebrate-champagne-bottles-bubbles-glass-flutes-by-studiolhb"
   },
   {
     name: "Chefcore Kitchen Half Drop Kiwi Fruit Slices",
@@ -41,7 +41,7 @@ const designs = [
     alt: "Chefcore Kitchen Half Drop Kiwi Fruit Slices — Two way, half drop pattern on napkins by Studio LHB",
     cats: ["food-kitchen", "summer", "botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16444972"
+    url: "https://www.spoonflower.com/en/collections/1481058-chefcore-kitchen-half-drop-kiwi-fruit-slices-by-studiolhb"
   },
   {
     name: "Chefcore Kitchen Two Way Summer Watermelon Slices",
@@ -73,7 +73,7 @@ const designs = [
     alt: "Cute Halloween Skull Trio with Hair Bows and Bowties — One way, half drop pattern on table runner and napkins by Studio LHB",
     cats: ["holiday", "baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17966739"
+    url: "https://www.spoonflower.com/en/collections/1481948-cute-halloween-skull-trio-hair-bows-bowties-by-studiolhb"
   },
   {
     name: "Delicate Half Drop Powder Blue Snowflake Trio",
@@ -81,7 +81,7 @@ const designs = [
     alt: "Delicate Half Drop Powder Blue Snowflake Trio — Four way, half drop pattern on throw blanket by Studio LHB",
     cats: ["holiday", "winter"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18271190"
+    url: "https://www.spoonflower.com/en/collections/1482025-delicate-half-drop-powder-blue-snowflake-trio-by-studiolhb"
   },
   {
     name: "Diamond Layout Beach Rocks and Sea Glass",
@@ -137,7 +137,7 @@ const designs = [
     alt: "Half Drop Botanical Three Green Leaf Clusters — Two way, half drop pattern on a tea towel by Studio LHB",
     cats: ["botanical"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16849388"
+    url: "https://www.spoonflower.com/en/collections/1479113-half-drop-botanical-three-green-leaf-clusters-by-studiolhb"
   },
   {
     name: "Half Drop Diamond Star Cross Geometric Blender",
@@ -217,7 +217,7 @@ const designs = [
     alt: "Half Drop Vintage Victorian Gold Key with Tiny Heart — One way, half drop pattern on throw blanket by Studio LHB",
     cats: ["vintage-retro"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17841702"
+    url: "https://www.spoonflower.com/en/collections/1481935-half-drop-vintage-victorian-gold-key-tiny-heart-by-studiolhb"
   },
   {
     name: "Harlequin Diamond Grid Lattice Bow Tie Blender",
@@ -337,7 +337,7 @@ const designs = [
     alt: "One Way Cute Little Kid Ghosts in Vintage Costumes — One way pattern on tea towel by Studio LHB",
     cats: ["baby-kids", "holiday"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17985240"
+    url: "https://www.spoonflower.com/en/collections/1479278-one-way-cute-little-kid-ghosts-vintage-costumes-by-studiolhb"
   },
   {
     name: "One Way Half Drop Berry Crocus Botanical Flower",
@@ -369,7 +369,7 @@ const designs = [
     alt: "One Way Multicolor Festive Christmas Ornaments Baubles — One way pattern on table runner by Studio LHB",
     cats: ["holiday", "winter"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18331371"
+    url: "https://www.spoonflower.com/en/collections/1479305-one-way-multicolor-festive-christmas-ornaments-baubles-by-studiolhb"
   },
   {
     name: "One Way Texture Watercolor Blue Mushroom Fungi",
@@ -505,7 +505,7 @@ const designs = [
     alt: "Tiny Dancer Girl Ballet Pointe Shoes with Hearts — One way pattern on tea towel by Studio LHB",
     cats: ["baby-kids"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/17437990"
+    url: "https://www.spoonflower.com/en/collections/1479121-tiny-dancer-girl-ballet-pointe-shoes-hearts-by-studiolhb"
   },
   {
     name: "Tonal Blender Pansy Quilting Coordinate Low Volume",
@@ -561,7 +561,7 @@ const designs = [
     alt: "Tossed Fall Harvest Pumpkins Gourds and Leaves — Toss pattern on tea towel by Studio LHB",
     cats: ["botanical", "food-kitchen", "fall"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18050877"
+    url: "https://www.spoonflower.com/en/collections/1479287-tossed-fall-harvest-pumpkins-gourds-leaves-by-studiolhb"
   },
   {
     name: "Tossed Harvest Sliced Bartlett Pears Fruit and Leaves",
@@ -601,7 +601,7 @@ const designs = [
     alt: "Christmas Bell Mitten Star Holiday Cookies — One way pattern on table runner and napkins by Studio LHB",
     cats: ["food-kitchen", "holiday", "winter"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16195569"
+    url: "https://www.spoonflower.com/en/collections/1480104-christmas-bell-mitten-star-holiday-cookies-by-studiolhb"
   },
   {
     name: "Triangle Clustered Scalloped Fan Shaped Seashells",
@@ -649,7 +649,7 @@ const designs = [
     alt: "Two Way Festive Christmas Holiday Ornaments Bauble Snowflakes Stars — Two way pattern on a table runner and napkins by Studio LHB",
     cats: ["holiday", "winter"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/16253371"
+    url: "https://www.spoonflower.com/en/collections/1480152-two-way-festive-christmas-holiday-ornaments-bauble-snowflakes-stars-by-studiolhb"
   },
   {
     name: "Geometric Blueberries Fruit",
@@ -721,7 +721,7 @@ const designs = [
     alt: "Two Way Red White Stripe Candy Cane with Green Bow — Two way pattern on a placemat by Studio LHB",
     cats: ["food-kitchen", "holiday", "winter"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18378709"
+    url: "https://www.spoonflower.com/en/collections/1479308-two-way-red-white-stripe-candy-cane-green-bow-by-studiolhb"
   },
   {
     name: "Two Way Watercolor Sea Turtle Geometric Shell",
@@ -793,7 +793,7 @@ const designs = [
     alt: "Wild West Rustic Vintage Southwestern Americana — One way pattern on throw blanket by Studio LHB",
     cats: ["animals"],
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/18121844"
+    url: "https://www.spoonflower.com/en/collections/1482021-wild-west-rustic-vintage-southwestern-americana-by-studiolhb"
   },
   {
     name: "Woodland Fox Forest Animal Baby Nursery Room",
@@ -954,6 +954,14 @@ const designs = [
     cats: ["geometric", "abstract", "botanical","vintage-retro"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1494612-chintz-revival-floral-botanical-harlequin-lattice-grid-by-studiolhb"
+   }, 
+   {
+    name: "Tossed Yellow Bananas Tropical Fruit Summer",
+    img: "Tossed Yellow Bananas Tropical Fruit Summer.jpeg",
+    alt: "Tossed Yellow Bananas Tropical Fruit Summer — Tossed pattern on wallpaper by Studio LHB",
+    cats: ["food-kitchen", "summer", "blender", "botanical","vintage-retro"],
+    status: "coming soon",
+    url: null
    }, 
 ];
 
