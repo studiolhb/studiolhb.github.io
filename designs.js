@@ -966,10 +966,18 @@ const designs = [
    {
     name: "Ginkgo Leaf Line Art Zen Botanical Garden",
     img: "Ginkgo Leaf Line Art Zen Botanical Garden.jpeg",
-    alt: "Ginkgo Leaf Line Art Zen Botanical Garden — Tossed pattern on a tablecloth by Studio LHB",
+    alt: "Ginkgo Leaf Line Art Zen Botanical Garden — Two way pattern on a tablecloth by Studio LHB",
     cats: ["spring", "summer", "blender", "botanical","abstract"],
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1503717-ginkgo-leaf-line-art-zen-botanical-garden-by-studiolhb"
+   }, 
+     {
+    name: "Koi Fish Lily Pad Line Art Botanical Zen Garden",
+    img: "Koi Fish Lily Pad Line Art Botanical Zen Garden.jpeg",
+    alt: "Koi Fish Lily Pad Line Art Botanical Zen Garden — Two way pattern on a throw pillow by Studio LHB",
+    cats: ["animals", "blender", "botanical","abstract"],
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1503723-koi-fish-lily-pad-line-art-botanical-zen-garden-by-studiolhb"
    }, 
 ];
 
