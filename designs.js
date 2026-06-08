@@ -960,8 +960,16 @@ const designs = [
     img: "Tossed Yellow Bananas Tropical Fruit Summer.jpeg",
     alt: "Tossed Yellow Bananas Tropical Fruit Summer — Tossed pattern on wallpaper by Studio LHB",
     cats: ["food-kitchen", "summer", "blender", "botanical","vintage-retro"],
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1501032-tossed-yellow-bananas-tropical-fruit-summer-by-studiolhb"
+   }, 
+   {
+    name: "Ginkgo Leaf Line Art Zen Botanical Garden",
+    img: "Ginkgo Leaf Line Art Zen Botanical Garden.jpeg",
+    alt: "Ginkgo Leaf Line Art Zen Botanical Garden — Tossed pattern on a tablecloth by Studio LHB",
+    cats: ["spring", "summer", "blender", "botanical","abstract"],
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1503717-ginkgo-leaf-line-art-zen-botanical-garden-by-studiolhb"
    }, 
 ];
 
