@@ -979,5 +979,29 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1503723-koi-fish-lily-pad-line-art-botanical-zen-garden-by-studiolhb"
    }, 
+     {
+    name: "Outline One Way Japanese Origami Hearts",
+    img: "Outline One Way Japanese Origami Hearts.jpeg",
+    alt: "Outline One Way Japanese Origami Hearts — One way pattern on a table runner and napkins by Studio LHB",
+    cats: ["geometric", "blender", "origami","abstract"],
+    status: "coming soon",
+    url: null
+   }, 
+     {
+    name: "Outline Two Way Japanese Origami Hearts",
+    img: "Outline Two Way Japanese Origami Hearts.jpeg",
+    alt: "Outline Two Way Japanese Origami Hearts — Two way pattern on a tablecloth by Studio LHB",
+    cats: ["geometric", "blender", "origami","abstract"],
+    status: "coming soon",
+    url: null      
+   }, 
+       {
+    name: "Outline Tossed Japanese Origami Hearts",
+    img: "Outline Tossed Japanese Origami Hearts.jpeg",
+    alt: "Outline Tossed Japanese Origami Hearts — Tossed pattern on wallpaper by Studio LHB",
+    cats: ["geometric", "blender", "origami","abstract"], 
+    status: "coming soon",
+    url: null      
+   }, 
 ];
 
