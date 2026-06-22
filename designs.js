@@ -1007,7 +1007,7 @@ const designs = [
     name: "Outline Japanese Origami Crane and Ginkgo Leaf",
     img: "Outline Japanese Origami Crane and Ginkgo Leaf.jpeg",
     alt: "Outline Japanese Origami Crane and Ginkgo Leaf — One way pattern on throw pillow by Studio LHB",
-    cats: ["geometric", "blender", "origami","abstract","botanical","animal"], 
+    cats: ["geometric", "blender", "origami","abstract","botanical", "animal"], 
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1508451-outline-japanese-origami-crane-ginkgo-leaf-by-studiolhb"    
    }, 
