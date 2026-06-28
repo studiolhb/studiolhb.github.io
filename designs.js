@@ -1007,9 +1007,65 @@ const designs = [
     name: "Outline Japanese Origami Crane and Ginkgo Leaf",
     img: "Outline Japanese Origami Crane and Ginkgo Leaf.jpeg",
     alt: "Outline Japanese Origami Crane and Ginkgo Leaf — One way pattern on throw pillow by Studio LHB",
-    cats: ["geometric", "blender", "origami","abstract","botanical", "animal"], 
+    cats: ["geometric", "blender", "origami","abstract","botanical", "animals"], 
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1508451-outline-japanese-origami-crane-ginkgo-leaf-by-studiolhb"    
+   }, 
+         {
+    name: "Opulent Halloween Moody Baroque Colorful Pumpkins Leaves",
+    img: "Opulent Halloween Moody Baroque Colorful Pumpkins Leaves.jpeg",
+    alt: "Opulent Halloween Moody Baroque Colorful Pumpkins Leaves — Toss pattern on wallpaper by Studio LHB",
+    cats: ["geometric", "fall", "food+kitchen","abstract","botanical", "holiday"], 
+    status: "coming soon",
+    url: null  
+   }, 
+
+         {
+    name: "Ornate White Geometric Floral Lace Vintage Diamond Baroque",
+    img: "Ornate White Geometric Floral Lace Vintage Diamond Baroque.jpeg",
+    alt: "Ornate White Geometric Floral Lace Vintage Diamond Baroque — Non directional pattern on wallpaper by Studio LHB",
+    cats: ["geometric", "abstract","blender"], 
+    status: "coming soon",
+    url: null  
+   }, 
+
+  
+         {
+    name: "Gothic Black Lace Geometric Floral Vintage Baroque",
+    img: "Gothic Black Lace Geometric Floral Vintage Baroque.jpeg",
+    alt: "Gothic Black Lace Geometric Floral Vintage Baroque — Non directional pattern on wallpaper by Studio LHB",
+    cats: ["geometric", "abstract","blender"], 
+    status: "coming soon",
+    url: null  
+   }, 
+
+           {
+    name: "One Way Japanese Origami Paper Crane Blue Outline",
+    img: "One Way Japanese Origami Paper Crane Blue Outline.jpeg",
+    alt: "One Way Japanese Origami Paper Crane Blue Outline — One way pattern on table runner and napkins by Studio LHB",
+    cats: ["geometric", "abstract","blender", "origami","animals"], 
+    status: "coming soon",
+    url: null  
+   }, 
+
+  
+           {
+    name: "One Way Japanese Origami Paper Crane Blue Outline",
+    img: "One Way Japanese Origami Paper Crane Blue Outline.jpeg",
+    alt: "One Way Japanese Origami Paper Crane Blue Outline — One way pattern on table runner and napkins by Studio LHB",
+    cats: ["geometric", "abstract","blender", "origami","animals"], 
+    status: "coming soon",
+    url: null  
+   }, 
+
+  
+           {
+    name: "Tossed Origami Ladybug Insect Beetle Outline",
+    img: "Tossed Origami Ladybug Insect Beetle Outline.jpeg",
+    alt: "Tossed Origami Ladybug Insect Beetle Outline — Tossed pattern on table runner and napkins by Studio LHB",
+    cats: ["geometric", "abstract","blender", "origami","animals"], 
+    status: "coming soon",
+    url: null  
    }, 
 ];
 
