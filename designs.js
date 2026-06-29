@@ -1048,17 +1048,7 @@ const designs = [
     url: null  
    }, 
 
-  
-           {
-    name: "One Way Japanese Origami Paper Crane Blue Outline",
-    img: "One Way Japanese Origami Paper Crane Blue Outline.jpeg",
-    alt: "One Way Japanese Origami Paper Crane Blue Outline — One way pattern on table runner and napkins by Studio LHB",
-    cats: ["geometric", "abstract","blender", "origami","animals"], 
-    status: "coming soon",
-    url: null  
-   }, 
 
-  
            {
     name: "Tossed Origami Ladybug Insect Beetle Outline",
     img: "Tossed Origami Ladybug Insect Beetle Outline.jpeg",
