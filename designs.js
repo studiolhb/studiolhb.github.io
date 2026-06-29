@@ -1016,8 +1016,8 @@ const designs = [
     img: "Opulent Halloween Moody Baroque Colorful Pumpkins Leaves.jpeg",
     alt: "Opulent Halloween Moody Baroque Colorful Pumpkins Leaves — Toss pattern on wallpaper by Studio LHB",
     cats: ["geometric", "fall", "food+kitchen","abstract","botanical", "holiday"], 
-    status: "coming soon",
-    url: null  
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1509353-opulent-halloween-moody-baroque-colorful-pumpkins-leaves-by-studiolhb"
    }, 
 
          {
@@ -1025,8 +1025,8 @@ const designs = [
     img: "Ornate White Geometric Floral Lace Vintage Diamond Baroque.jpeg",
     alt: "Ornate White Geometric Floral Lace Vintage Diamond Baroque — Non directional pattern on wallpaper by Studio LHB",
     cats: ["geometric", "abstract","blender"], 
-    status: "coming soon",
-    url: null  
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1510389-ornate-white-geometric-floral-lace-vintage-diamond-baroque-by-studiolhb"  
    }, 
 
   
@@ -1035,17 +1035,17 @@ const designs = [
     img: "Gothic Black Lace Geometric Floral Vintage Baroque.jpeg",
     alt: "Gothic Black Lace Geometric Floral Vintage Baroque — Non directional pattern on wallpaper by Studio LHB",
     cats: ["geometric", "abstract","blender"], 
-    status: "coming soon",
-    url: null  
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1510394-gothic-black-lace-geometric-floral-vintage-baroque-by-studiolhb"
    }, 
 
            {
-    name: "One Way Japanese Origami Paper Crane Blue Outline",
+    name: "One Way Japanese Origami Paper Crane Outline",
     img: "One Way Japanese Origami Paper Crane Blue Outline.jpeg",
-    alt: "One Way Japanese Origami Paper Crane Blue Outline — One way pattern on table runner and napkins by Studio LHB",
+    alt: "One Way Japanese Origami Paper Crane Outline — One way pattern on table runner and napkins by Studio LHB",
     cats: ["geometric", "abstract","blender", "origami","animals"], 
-    status: "coming soon",
-    url: null  
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1510428-one-way-japanese-origami-paper-crane-outline-by-studiolhb"  
    }, 
 
 
