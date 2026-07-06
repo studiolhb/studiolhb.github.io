@@ -1054,7 +1054,7 @@ const designs = [
     img: "Tossed Origami Ladybug Insect Beetle Outline.jpeg",
     alt: "Tossed Origami Ladybug Insect Beetle Outline — Tossed pattern on table runner and napkins by Studio LHB",
     cats: ["geometric", "abstract","blender", "origami","animals"], 
-    status: "coming soon",
+    status: "live",
     url: "https://www.spoonflower.com/en/collections/1510443-tossed-origami-ladybug-insect-beetle-outline-by-studiolhb"  
    }, 
 ];
