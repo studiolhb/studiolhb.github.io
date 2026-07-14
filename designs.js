@@ -1057,5 +1057,23 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1510443-tossed-origami-ladybug-insect-beetle-outline-by-studiolhb"  
    }, 
+
+           {
+    name: "Tossed Line Art Outline Origami Butterfly Insect",
+    img: "Tossed Line Art Outline Origami Butterfly Insect.jpeg",
+    alt: "Tossed Line Art Outline Origami Butterfly Insect — Tossed pattern on throw pillow by Studio LHB",
+    cats: ["geometric", "abstract","blender", "origami","animals"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1515312-tossed-line-art-outline-origami-butterfly-insect-by-studiolhb"  
+   }, 
+
+             {
+    name: "Tossed Herbarium Botanicals Wild Flowers Leaves Nature",
+    img: "Tossed Herbarium Botanicals Wild Flowers Leaves Nature.jpeg",
+    alt: "Tossed Herbarium Botanicals Wild Flowers Leaves Nature — Tossed pattern on wallpaper by Studio LHB",
+    cats: ["botanical", "summer","vintage-retro"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/artists/fabric/22746446"  
+   }, 
 ];
 
