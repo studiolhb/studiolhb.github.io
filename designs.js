@@ -1075,5 +1075,23 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/artists/fabric/22746446"  
    }, 
+
+               {
+    name: "Merry Maximalist Winter Christmas Holiday Ornament Cookies",
+    img: "Merry Maximalist Winter Christmas Holiday Ornament Cookies.jpeg",
+    alt: "Merry Maximalist Winter Christmas Holiday Ornament Cookies — One way pattern on a tablecloth by Studio LHB",
+    cats: ["botanical", "winter","food-kitchen", "holiday"], 
+    status: "coming soon",
+    url: null
+   }, 
+
+                 {
+    name: "Painted Textured Pastel Geometric Polka Dots",
+    img: "Painted Textured Pastel Geometric Polka Dots.jpeg",
+    alt: "Painted Textured Pastel Geometric Polka Dots — Tossed pattern on wallpaper by Studio LHB",
+    cats: ["blender", "summer","abstract", "holiday"], 
+    status: "coming soon",
+    url: null
+   }, 
 ];
 
