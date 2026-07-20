@@ -1073,7 +1073,7 @@ const designs = [
     alt: "Tossed Herbarium Botanicals Wild Flowers Leaves Nature — Tossed pattern on wallpaper by Studio LHB",
     cats: ["botanical", "summer","vintage-retro"], 
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/22746446"  
+    url: "https://www.spoonflower.com/en/collections/1515836-tossed-herbarium-botanicals-wild-flowers-leaves-nature-by-studiolhb"  
    }, 
 
                {
@@ -1081,8 +1081,8 @@ const designs = [
     img: "Merry Maximalist Winter Christmas Holiday Ornament Cookies.jpeg",
     alt: "Merry Maximalist Winter Christmas Holiday Ornament Cookies — One way pattern on a tablecloth by Studio LHB",
     cats: ["botanical", "winter","food-kitchen", "holiday"], 
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1517749-merry-maximalist-winter-christmas-holiday-ornament-cookies-by-studiolhb"
    }, 
 
                  {
@@ -1090,8 +1090,8 @@ const designs = [
     img: "Painted Textured Pastel Geometric Polka Dots.jpeg",
     alt: "Painted Textured Pastel Geometric Polka Dots — Tossed pattern on wallpaper by Studio LHB",
     cats: ["blender", "summer","abstract", "holiday"], 
-    status: "coming soon",
-    url: null
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1515341-painted-textured-pastel-geometric-polka-dots-by-studiolhb"
    }, 
 ];
 
