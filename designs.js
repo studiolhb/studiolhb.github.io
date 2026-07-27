@@ -1089,7 +1089,7 @@ const designs = [
     name: "Painted Textured Pastel Geometric Polka Dots",
     img: "Painted Textured Pastel Geometric Polka Dots.jpeg",
     alt: "Painted Textured Pastel Geometric Polka Dots — Tossed pattern on wallpaper by Studio LHB",
-    cats: ["blender", "summer","abstract", "holiday"], 
+    cats: ["blender", "summer","abstract", "geometric", "rainbow", "holiday"], 
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1515341-painted-textured-pastel-geometric-polka-dots-by-studiolhb"
    }, 
