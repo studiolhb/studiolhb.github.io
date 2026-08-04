@@ -1093,5 +1093,22 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1515341-painted-textured-pastel-geometric-polka-dots-by-studiolhb"
    }, 
+
+               {
+    name: "Lucky Puffy Star Japanese Origami Celestial",
+    img: "Lucky Puffy Star Japanese Origami Celestial.jpeg",
+    alt: "Lucky Puffy Star Japanese Origami Celestial — Half drop pattern on a throw blanket by Studio LHB",
+    cats: ["baby-kids", "night-sky","origami", "geometric"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1523509-lucky-puffy-star-japanese-origami-celestial-by-studiolhb"
+   }, 
+           {
+    name: "Colorful Jelly Bean Candy Easter Spring Toss",
+    img: "Colorful Jelly Bean Candy Easter Spring Toss.jpeg",
+    alt: "Colorful Jelly Bean Candy Easter Spring Toss — Toss pattern on a tea towel by Studio LHB",
+    cats: ["baby-kids", "food-kitchen","holiday", "rainbow", "spring"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1523529-colorful-jelly-bean-candy-easter-spring-toss-by-studiolhb"
+   }, 
 ];
 
