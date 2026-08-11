@@ -1121,7 +1121,7 @@ const designs = [
         {
     name: "Christmas Winter Ornament Bauble Dot Striped",
     img: "Christmas Winter Ornament Bauble Dot Striped.jpeg",
-    alt: "Christmas Winter Ornament Bauble Dot Striped — One way pattern on a table runner by Studio LHB",
+    alt: "Christmas Winter Ornament Bauble Dot Striped — One way pattern on a tablecloth by Studio LHB",
     cats: ["holiday", "winter"], 
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1525760-christmas-winter-ornament-bauble-dot-striped-by-studiolhb"              
