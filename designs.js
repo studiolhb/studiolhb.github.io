@@ -1110,5 +1110,21 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1523529-colorful-jelly-bean-candy-easter-spring-toss-by-studiolhb"
    }, 
+             {
+    name: "Winter Christmas Ornament Bauble Striped",
+    img: "Winter Christmas Ornament Bauble Striped.jpeg",
+    alt: "Winter Christmas Ornament Bauble Striped — Two way pattern on a table runner by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1525746-winter-christmas-ornament-bauble-striped-by-studiolhb"              
+   }, 
+        {
+    name: "Christmas Winter Ornament Bauble Dot Striped",
+    img: "Christmas Winter Ornament Bauble Dot Striped.jpeg",
+    alt: "Christmas Winter Ornament Bauble Dot Striped — One way pattern on a table runner by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1525760-christmas-winter-ornament-bauble-dot-striped-by-studiolhb"              
+   }, 
 ];
 
