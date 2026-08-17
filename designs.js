@@ -1126,5 +1126,30 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1525760-christmas-winter-ornament-bauble-dot-striped-by-studiolhb"              
    }, 
+         {
+    name: "Painted Hydrangea Blooms Leaves Vintage Cottage Garden",
+    img: "Painted Hydrangea Blooms Leaves Vintage Cottage Garden.jpeg",
+    alt: "Painted Hydrangea Blooms Leaves Vintage Cottage Garden — One way pattern on wallpaper by Studio LHB",
+    cats: ["abstract", "botanical", "summer", "vintage-retro"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1528264-painted-hydrangea-blooms-leaves-vintage-cottage-garden-by-studiolhb"              
+   }, 
+       {
+    name: "Tossed Summer Strawberries Fruit Garden Party",
+    img: "Tossed Summer Strawberries Fruit Garden Party.jpeg",
+    alt: "Tossed Summer Strawberries Fruit Garden Party — Tossed pattern on a tea towel by Studio LHB",
+    cats: ["botanical", "summer", "vintage-retro", "food-kitchen"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1528271-tossed-summer-strawberries-fruit-garden-party-by-studiolhb"              
+   }, 
+
+     {
+    name: "Iridescent Glitter Crystal Geometric Gemstone",
+    img: "Iridescent Glitter Crystal Geometric Gemstone.jpeg",
+    alt: "Iridescent Glitter Crystal Geometric Gemstone — Two way pattern on a throw pillow by Studio LHB",
+    cats: ["abstract", "blenders", "geometric"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1528283-iridescent-glitter-crystal-geometric-gemstone-by-studiolhb"              
+   }, 
 ];
 
