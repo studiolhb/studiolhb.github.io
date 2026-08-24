@@ -1151,5 +1151,34 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1528283-iridescent-glitter-crystal-geometric-gemstone-by-studiolhb"              
    }, 
+
+  
+     {
+    name: "Tossed Rustic Painted Leaves Botanical Garden",
+    img: "Tossed Rustic Painted Leaves Botanical Garden.jpeg",
+    alt: "Tossed Rustic Painted Leaves Botanical Garden — Tossed pattern on wallpaper by Studio LHB",
+    cats: ["abstract", "blenders", "botanical", "summer"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1530741-tossed-rustic-painted-leaves-botanical-garden-by-studiolhb"              
+   }, 
+  
+     {
+    name: "Elevated Classics Diamond Tiles Diagonal Plaid",
+    img: "Elevated Classics Diamond Tiles Diagonal Plaid.jpeg",
+    alt: "Elevated Classics Diamond Tiles Diagonal Plaid — Non directional pattern on a throw blanket by Studio LHB",
+    cats: ["abstract", "blenders", "geometric", "holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1530715-elevated-classics-diamond-tiles-diagonal-plaid-by-studiolhb"              
+   }, 
+
+  
+     {
+    name: "Painted Leaves Stripes Lines Botanical Garden",
+    img: "Painted Leaves Stripes Lines Botanical Garden.jpeg",
+    alt: "Painted Leaves Stripes Lines Botanical Garden — Two way pattern on wallpaper by Studio LHB",
+    cats: ["abstract", "blenders", "botanical", "summer"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1530748-painted-leaves-stripes-lines-botanical-garden-by-studiolhb"              
+   }, 
 ];
 
