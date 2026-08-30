@@ -1180,5 +1180,24 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1530748-painted-leaves-stripes-lines-botanical-garden-by-studiolhb"              
    }, 
+
+       {
+    name: "Christmas Ornament Baubles Lace",
+    img: "Christmas Ornament Baubles Lace.jpeg",
+    alt: "Christmas Ornament Baubles Lace — One way pattern on a table runner by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "coming soon",
+    url: null              
+   }, 
+
+  
+       {
+    name: "Ornament Baubles Hearts",
+    img: "Ornament Baubles Hearts.jpeg",
+    alt: "Ornament Baubles Hearts — One way pattern on placemats by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "coming soon",
+    url: null              
+   }, 
 ];
 
