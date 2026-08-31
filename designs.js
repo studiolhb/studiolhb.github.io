@@ -1186,8 +1186,8 @@ const designs = [
     img: "Christmas Ornament Baubles Lace.jpeg",
     alt: "Christmas Ornament Baubles Lace — One way pattern on a table runner by Studio LHB",
     cats: ["holiday", "winter"], 
-    status: "coming soon",
-    url: null              
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1532502-christmas-ornament-baubles-lace-by-studiolhb"              
    }, 
 
   
@@ -1196,8 +1196,8 @@ const designs = [
     img: "Ornament Baubles Hearts.jpeg",
     alt: "Ornament Baubles Hearts — One way pattern on placemats by Studio LHB",
     cats: ["holiday", "winter"], 
-    status: "coming soon",
-    url: null              
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1532509-christmas-ornament-baubles-hearts-by-studiolhb"            
    }, 
 ];
 
