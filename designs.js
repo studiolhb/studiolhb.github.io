@@ -1199,5 +1199,29 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1532509-christmas-ornament-baubles-hearts-by-studiolhb"            
    }, 
+
+
+  
+       {
+    name: "Two Way Christmas Winter Ornament Bauble Stars",
+    img: "Two Way Christmas Winter Ornament Bauble Stars.jpeg",
+    alt: "Two Way Christmas Winter Ornament Bauble Stars — Two way pattern on a table runner and napkins by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "coming soon",
+    url: null         
+   }, 
+
+  
+  
+       {
+    name: "Heart Lollipop Candy with Bow",
+    img: "Heart Lollipop Candy with Bow.jpeg",
+    alt: "Heart Lollipop Candy with Bow — One way pattern on throw blanket by Studio LHB",
+    cats: ["baby-kids", "food-kitchen"], 
+    status: "coming soon",
+    url: null         
+   }, 
+  
+  
 ];
 
