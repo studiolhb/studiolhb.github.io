@@ -1207,8 +1207,8 @@ const designs = [
     img: "Two Way Christmas Winter Ornament Bauble Stars.jpeg",
     alt: "Two Way Christmas Winter Ornament Bauble Stars — Two way pattern on a table runner and napkins by Studio LHB",
     cats: ["holiday", "winter"], 
-    status: "coming soon",
-    url: null         
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1534962-two-way-christmas-winter-ornament-bauble-stars-by-studiolhb"        
    }, 
 
   
@@ -1218,8 +1218,8 @@ const designs = [
     img: "Heart Lollipop Candy with Bow.jpeg",
     alt: "Heart Lollipop Candy with Bow — One way pattern on throw blanket by Studio LHB",
     cats: ["baby-kids", "food-kitchen"], 
-    status: "coming soon",
-    url: null         
+    status: "live",
+    url: "https://www.spoonflower.com/en/fabric/23166124-pink-heart-lollipop-candy-with-bow-on-cream-large-scale-by-studiolhb"        
    }, 
   
   
