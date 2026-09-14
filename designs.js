@@ -1219,9 +1219,34 @@ const designs = [
     alt: "Heart Lollipop Candy with Bow — One way pattern on throw blanket by Studio LHB",
     cats: ["baby-kids", "food-kitchen"], 
     status: "live",
-    url: "https://www.spoonflower.com/en/fabric/23166124-pink-heart-lollipop-candy-with-bow-on-cream-large-scale-by-studiolhb"        
+    url: "https://www.spoonflower.com/en/collections/1534986-heart-lollipop-candy-bow-by-studiolhb"        
    }, 
-  
-  
+    
+       {
+    name: "Two Way Vintage Rustic Industrial Light Bulb",
+    img: "Two Way Vintage Rustic Industrial Light Bulb.jpeg",
+    alt: "Two Way Vintage Rustic Industrial Light Bulb — Two way pattern on table runner and napkins by Studio LHB",
+    cats: ["blenders", "vintage-retro"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1537837-two-way-vintage-rustic-industrial-light-bulb-by-studiolhb"        
+   }, 
+
+         {
+    name: "Two Way Festive Winter Christmas Light Bulb",
+    img: "Two Way Festive Winter Christmas Light Bulb.jpeg",
+    alt: "Two Way Festive Winter Christmas Light Bulb — Two way pattern on a tablecloth by Studio LHB",
+    cats: ["blenders", "vintage-retro","holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1537489-two-way-festive-winter-christmas-light-bulb-by-studiolhb"        
+   }, 
+
+         {
+    name: "Patchwork Revival Quilted Hand Embroidery Japan Asian Inspired",
+    img: "Patchwork Revival Quilted Hand Embroidery Japan Asian Inspired.jpeg",
+    alt: "Patchwork Revival Quilted Hand Embroidery Japan Asian Inspired — One way pattern on wallpaper by Studio LHB",
+    cats: ["animals", "vintage-retro", "botanical", "geometric", "origami"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/artists/fabric/23218840"        
+   },
 ];
 
