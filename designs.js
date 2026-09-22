@@ -1246,7 +1246,33 @@ const designs = [
     alt: "Patchwork Revival Quilted Hand Embroidery Japan Asian Inspired — One way pattern on wallpaper by Studio LHB",
     cats: ["animals", "vintage-retro", "botanical", "geometric", "origami"], 
     status: "live",
-    url: "https://www.spoonflower.com/en/artists/fabric/23218840"        
+    url: "https://www.spoonflower.com/en/collections/1538756-patchwork-revival-quilted-hand-embroidery-japan-asian-inspired-by-studiolhb"        
+   },
+
+           {
+    name: "One Way White Yellow Flower Sewing Pin Vintage Notions",
+    img: "One Way White Yellow Flower Sewing Pin Vintage Notions.jpeg",
+    alt: "One Way White Yellow Flower Sewing Pin Vintage Notions — One way pattern on a tea towel by Studio LHB",
+    cats: ["botanical", "geometric", "spring", "summer", "vintage-retro"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1540047-one-way-white-yellow-flower-sewing-pin-vintage-notions-by-studiolhb"        
+   },
+
+             {
+    name: "One Way Pink Purple Heart Sewing Pin Vintage Notions",
+    img: "One Way Pink Purple Heart Sewing Pin Vintage Notions.jpeg",
+    alt: "One Way Pink Purple Heart Sewing Pin Vintage Notions — One way pattern on a placemat by Studio LHB",
+    cats: ["geometric", "vintage-retro", "holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1540046-one-way-pink-purple-heart-sewing-pin-vintage-notions-by-studiolhb"        
+   },
+        {
+    name: "Heart Flower Round Sewing Pin Vintage Notions Toss",
+    img: "Heart Flower Round Sewing Pin Vintage Notions Toss.jpeg",
+    alt: "Heart Flower Round Sewing Pin Vintage Notions Toss — Toss pattern on wallpaper by Studio LHB",
+    cats: ["botanical", "geometric", "spring", "summer", "vintage-retro", "holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1540030-heart-flower-round-sewing-pin-vintage-notions-toss-by-studiolhb"        
    },
 ];
 
