@@ -1274,5 +1274,25 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1540030-heart-flower-round-sewing-pin-vintage-notions-toss-by-studiolhb"        
    },
+
+          {
+    name: "Tossed Rainbow Round Sewing Pin Vintage Notion",
+    img: "Tossed Rainbow Round Sewing Pin Vintage Notion.jpeg",
+    alt: "Tossed Rainbow Round Sewing Pin Vintage Notion — Toss pattern on throw pillow by Studio LHB",
+    cats: ["vintage-retro", "rainbow"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1541257-tossed-rainbow-round-sewing-pin-vintage-notion-by-studiolhb"        
+   },
+
+  
+          {
+    name: "One Way Multicolored Round Sewing Pin Vintage Notion",
+    img: "One Way Multicolored Round Sewing Pin Vintage Notion.jpeg",
+    alt: "One Way Multicolored Round Sewing Pin Vintage Notion — One way pattern on wallpaper by Studio LHB",
+    cats: ["vintage-retro", "geometric"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1541250-one-way-multicolored-round-sewing-pin-vintage-notion-by-studiolhb"        
+   },
+
 ];
 
