@@ -1294,5 +1294,31 @@ const designs = [
     url: "https://www.spoonflower.com/en/collections/1541250-one-way-multicolored-round-sewing-pin-vintage-notion-by-studiolhb"        
    },
 
+            {
+    name: "Monochromatic Coquette Bows and Dots Blender",
+    img: "Monochromatic Coquette Bows and Dots Blender.jpeg",
+    alt: "Monochromatic Coquette Bows and Dots Blender — One way pattern on a throw pillow by Studio LHB",
+    cats: ["blenders", "geometric", "baby-kids"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1544619-coquette-bows-dots-blender-by-studiolhb"        
+   },
+
+              {
+    name: "Tossed Celebration Festive Birthday Party Confetti",
+    img: "Tossed Celebration Festive Birthday Party Confetti.jpeg",
+    alt: "Tossed Celebration Festive Birthday Party Confetti — Tossed pattern on a table runner by Studio LHB",
+    cats: ["blenders", "geometric", "baby-kids", "summer", "holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1545346-tossed-celebration-festive-birthday-party-confetti-by-studiolhb"        
+   },
+
+                {
+    name: "Organic Rustic Painted Rainbow Geometric Rings Circles",
+    img: "Organic Rustic Painted Rainbow Geometric Rings Circles.jpeg",
+    alt: "Organic Rustic Painted Rainbow Geometric Rings Circles — Non directional pattern on wallpaper by Studio LHB",
+    cats: ["blenders", "geometric", "baby-kids", "rainbow", "holiday"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1545349-organic-rustic-painted-rainbow-geometric-rings-circles-by-studiolhb"        
+   },
 ];
 
