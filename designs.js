@@ -1320,5 +1320,13 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1545349-organic-rustic-painted-rainbow-geometric-rings-circles-by-studiolhb"        
    },
+                  {
+    name: "Looped Decorative Green and Gold Stripes",
+    img: "Looped Decorative Green and Gold Stripes.jpeg",
+    alt: "Looped Decorative Green and Gold Stripes — Two way pattern on wallpaper by Studio LHB",
+    cats: ["retro-vintage", "geometric"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1546614-looped-decorative-green-gold-stripes-by-studiolhb"        
+   },
 ];
 
