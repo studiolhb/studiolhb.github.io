@@ -1328,5 +1328,31 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1546614-looped-decorative-green-gold-stripes-by-studiolhb"        
    },
+
+                    {
+    name: "Half Drop Powder Blue Winter Christmas Snowflakes",
+    img: "Half Drop Powder Blue Winter Christmas Snowflakes.jpeg",
+    alt: "Half Drop Powder Blue Winter Christmas Snowflakes — Non directional pattern on a table runner and napkins by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1547368-half-drop-powder-blue-winter-christmas-snowflakes-by-studiolhb"        
+   },
+
+                     {
+    name: "Christmas Winter Holiday Sweet Treats Snowflakes",
+    img: "Christmas Winter Holiday Sweet Treats Snowflakes.jpeg",
+    alt: "Christmas Winter Holiday Sweet Treats Snowflakes — One way pattern on a throw blanket by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1546940-christmas-winter-holiday-sweet-treats-snowflakes-by-studiolhb"        
+   },
+                  {
+    name: "Cozy Cabincore Winter Rustic Woodland Forest",
+    img: "Cozy Cabincore Winter Rustic Woodland Forest.jpeg",
+    alt: "Cozy Cabincore Winter Rustic Woodland Forest — One way pattern on a throw blanket by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1546862-cozy-cabincore-winter-rustic-woodland-forest-by-studiolhb"        
+   },
 ];
 
