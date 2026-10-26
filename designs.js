@@ -1354,5 +1354,23 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1546862-cozy-cabincore-winter-rustic-woodland-forest-by-studiolhb"        
    },
+
+                 {
+    name: "Christmas Winter Space Boots and Snowflakes",
+    img: "Christmas Winter Space Boots and Snowflakes.jpeg",
+    alt: "Christmas Winter Space Boots and Snowflakes — One way pattern on a table runner and napkins by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1549909-christmas-winter-space-boots-snowflakes-by-studiolhb"        
+   },
+
+                   {
+    name: "Winter Christmas Snowflakes and Dots",
+    img: "Winter Christmas Snowflakes and Dots.jpeg",
+    alt: "Winter Christmas Snowflakes and Dots — Non directional pattern on a throw blanket by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1550385-winter-christmas-snowflakes-dots-by-studiolhb"        
+   },
 ];
 
