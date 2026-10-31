@@ -1372,5 +1372,24 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1550385-winter-christmas-snowflakes-dots-by-studiolhb"        
    },
+
+                   {
+    name: "Red and Green Round Peppermint Christmas Candy",
+    img: "Red and Green Round Peppermint Christmas Candy.jpeg",
+    alt: "Red and Green Round Peppermint Christmas Candy — Non directional pattern on a table runner and napkins by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "coming soon",
+    url: null        
+   },
+
+  
+                   {
+    name: "Tossed Winter Christmas Peppermints and Candy Canes",
+    img: "Tossed Winter Christmas Peppermints and Candy Canes.jpeg",
+    alt: "Tossed Winter Christmas Peppermints and Candy Canes — Non directional pattern on a throw blanket by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "coming soon",
+    url: null        
+   },
 ];
 
