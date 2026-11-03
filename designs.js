@@ -1378,8 +1378,8 @@ const designs = [
     img: "Red and Green Round Peppermint Christmas Candy.jpeg",
     alt: "Red and Green Round Peppermint Christmas Candy — Non directional pattern on a table runner and napkins by Studio LHB",
     cats: ["holiday", "winter"], 
-    status: "coming soon",
-    url: null        
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1551569-red-green-round-peppermint-christmas-candy-by-studiolhb"        
    },
 
   
@@ -1388,8 +1388,8 @@ const designs = [
     img: "Tossed Winter Christmas Peppermints and Candy Canes.jpeg",
     alt: "Tossed Winter Christmas Peppermints and Candy Canes — Non directional pattern on a throw blanket by Studio LHB",
     cats: ["holiday", "winter"], 
-    status: "coming soon",
-    url: null        
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1551584-tossed-winter-christmas-peppermints-candy-canes-by-studiolhb"        
    },
 ];
 
