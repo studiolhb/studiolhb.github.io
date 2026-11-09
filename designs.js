@@ -1391,5 +1391,24 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1551584-tossed-winter-christmas-peppermints-candy-canes-by-studiolhb"        
    },
+
+    
+                   {
+    name: "Botanical Holiday Winter Berry Sprig",
+    img: "Botanical Holiday Winter Berry Sprig.jpeg",
+    alt: "Botanical Holiday Winter Berry Sprig — Two way pattern on a tablecloth by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1553513-botanical-holiday-winter-berry-sprig-by-studiolhb"        
+   },
+
+                     {
+    name: "Vintage Stripes Textured Ginkgo Leaves Dots",
+    img: "Vintage Stripes Textured Ginkgo Leaves Dots.jpeg",
+    alt: "Vintage Stripes Textured Ginkgo Leaves Dots — Two way pattern on wallpaper by Studio LHB",
+    cats: ["vintage-retro", "botanical"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1554673-vintage-stripes-textured-ginkgo-leaves-dots-by-studiolhb"        
+   },
 ];
 
