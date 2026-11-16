@@ -1410,5 +1410,35 @@ const designs = [
     status: "live",
     url: "https://www.spoonflower.com/en/collections/1554673-vintage-stripes-textured-ginkgo-leaves-dots-by-studiolhb"        
    },
+
+              {
+    name: "Christmas Red and Green Candy Canes with Bows",
+    img: "Christmas Red and Green Candy Canes with Bows",
+    alt: "Christmas Red and Green Candy Canes with Bows — Tossed pattern on a tablecloth by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1553526-christmas-red-green-candy-canes-bows-by-studiolhb"        
+   },
+
+  
+              {
+    name: "Winter Christmas Red and Green Striped Candy Canes",
+    img: "Winter Christmas Red and Green Striped Candy Canes",
+    alt: "Winter Christmas Red and Green Striped Candy Canes — Tossed pattern on a tablecloth by Studio LHB",
+    cats: ["holiday", "winter"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1553545-winter-christmas-red-green-striped-candy-canes-by-studiolhb"        
+   },
+
+    
+              {
+    name: "Tossed Gold Yellow Crescent Moons Dots Stars",
+    img: "Tossed Gold Yellow Crescent Moons Dots Stars",
+    alt: "Tossed Gold Yellow Crescent Moons Dots Stars — Tossed pattern on a throw blanket by Studio LHB",
+    cats: ["baby-kids", "blender", "geometric"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1555900-tossed-gold-yellow-crescent-moons-dots-stars-by-studiolhb"        
+   },
+
 ];
 
