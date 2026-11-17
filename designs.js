@@ -1413,7 +1413,7 @@ const designs = [
 
               {
     name: "Christmas Red and Green Candy Canes with Bows",
-    img: "Christmas Red and Green Candy Canes with Bows",
+    img: "Christmas Red and Green Candy Canes with Bows.jpeg",
     alt: "Christmas Red and Green Candy Canes with Bows — Tossed pattern on a tablecloth by Studio LHB",
     cats: ["holiday", "winter"], 
     status: "live",
@@ -1423,7 +1423,7 @@ const designs = [
   
               {
     name: "Winter Christmas Red and Green Striped Candy Canes",
-    img: "Winter Christmas Red and Green Striped Candy Canes",
+    img: "Winter Christmas Red and Green Striped Candy Canes.jpeg",
     alt: "Winter Christmas Red and Green Striped Candy Canes — Tossed pattern on a tablecloth by Studio LHB",
     cats: ["holiday", "winter"], 
     status: "live",
@@ -1433,7 +1433,7 @@ const designs = [
     
               {
     name: "Tossed Gold Yellow Crescent Moons Dots Stars",
-    img: "Tossed Gold Yellow Crescent Moons Dots Stars",
+    img: "Tossed Gold Yellow Crescent Moons Dots Stars.jpeg",
     alt: "Tossed Gold Yellow Crescent Moons Dots Stars — Tossed pattern on a throw blanket by Studio LHB",
     cats: ["baby-kids", "blender", "geometric"], 
     status: "live",
