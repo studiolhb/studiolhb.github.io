@@ -1440,5 +1440,15 @@ const designs = [
     url: "https://www.spoonflower.com/en/collections/1555900-tossed-gold-yellow-crescent-moons-dots-stars-by-studiolhb"        
    },
 
+      
+              {
+    name: "Half Brick Whimsical Botanical Flower",
+    img: "Half Brick Whimsical Botanical Flower.jpeg",
+    alt: "Half Brick Whimsical Botanical Flower — Two way pattern on a throw blanket by Studio LHB",
+    cats: ["botanical", "summer", "spring"], 
+    status: "live",
+    url: "https://www.spoonflower.com/en/collections/1559341-half-brick-whimsical-botanical-flower-by-studiolhb"        
+   },
+
 ];
 
